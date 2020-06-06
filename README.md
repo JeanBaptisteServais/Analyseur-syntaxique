@@ -32,11 +32,16 @@ https://short-edition.com/fr/categorie/tres-tres-court
  
 détection et rattachement des sujets entre les phrases
 
+L'homme a mis des brindille sur sa tante, l'homme a froit, il se souffle dans les mains.
+
 ![sentence1](https://user-images.githubusercontent.com/54853371/83954299-4f505d80-a848-11ea-8dd5-de251d92ee6f.png)
 ![ana1](https://user-images.githubusercontent.com/54853371/83954301-524b4e00-a848-11ea-9170-04c71160833b.png)
 
 ![sentence2](https://user-images.githubusercontent.com/54853371/83954300-50818a80-a848-11ea-8e36-c611675e1909.png)
 ![ana2](https://user-images.githubusercontent.com/54853371/83954302-55ded500-a848-11ea-82ba-bb65184e7b1b.png)
+
+![sentence3](https://user-images.githubusercontent.com/54853371/83954342-950d2600-a848-11ea-9436-9e392aec8dfd.png)
+
 
 <h1>utilisation:</h1>
 

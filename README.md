@@ -13,6 +13,7 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
  
  analyse et attribuation des fonctions syntaxiques aux mots
  
+![aa](https://user-images.githubusercontent.com/54853371/83953960-267a9900-a845-11ea-8c8f-2f0da2541677.png)
 
  
 <h1> Analyse de schema phrase + détection du sujet</h1>

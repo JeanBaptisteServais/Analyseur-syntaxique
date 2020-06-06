@@ -46,4 +46,8 @@ utilisation:
 
 - lancer programme 2 (sortie 1 analyse syntaxique)
 
+ne peut pas:
 
+ - différencier proprement un adjectif d'un participe passé. Choix du participe passé.
+ - faire correctement la différence entre un nom commun et un adjectif (qui peut etre un nom commun).
+ - faire dans tous les cas la différence entre un verbe et un nom commun.

@@ -9,14 +9,14 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
  - https://leconjugueur.lefigaro.fr/ (verbe)
  
  
- - Analyse syntaxique
+- Analyse syntaxique
  
  analyse et attribuation des fonctions syntaxiques aux mots
  
- - Analyse de schema phrase + détection du sujet
+- Analyse de schema phrase + détection du sujet
  
  analyse des différents groupes de schéma de phrase
  
- - Rattachement inter sujet
+- Rattachement inter sujet
  
 détection et rattachement des sujets entre les phrases

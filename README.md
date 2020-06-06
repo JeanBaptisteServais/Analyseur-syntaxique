@@ -20,6 +20,8 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
  
  analyse des différents groupes de schéma de phrase
  
+ ![aa](https://user-images.githubusercontent.com/54853371/83953983-575ace00-a845-11ea-9f1e-965291ea2321.png)
+ 
 <h1> Rattachement inter sujet</h1>
  
 détection et rattachement des sujets entre les phrases

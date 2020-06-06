@@ -16,6 +16,8 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
  
 ![aa](https://user-images.githubusercontent.com/54853371/83953960-267a9900-a845-11ea-8c8f-2f0da2541677.png)
 
+![aa](https://user-images.githubusercontent.com/54853371/83954054-f7b0f280-a845-11ea-8c29-9e5a339b805e.png)
+
 #décommentez cela, commentez le reste.
 
  

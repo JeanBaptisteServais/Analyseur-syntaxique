@@ -26,6 +26,7 @@ https://short-edition.com/fr/categorie/tres-tres-court
  
  analyse des différents groupes de schéma de phrase
  
+ ![aaa](https://user-images.githubusercontent.com/54853371/83954395-1e245d00-a849-11ea-98fc-f0a761cb080a.png)
  ![aa](https://user-images.githubusercontent.com/54853371/83953983-575ace00-a845-11ea-9f1e-965291ea2321.png)
  
 <h1> Rattachement inter sujet</h1>

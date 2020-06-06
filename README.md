@@ -11,8 +11,12 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
  
  - Analyse syntaxique
  
+ analyse et attribuation des fonctions syntaxiques aux mots
  
- - Analyse de schema phrase
+ - Analyse de schema phrase + détection du sujet
  
+ analyse des différents groupes de schéma de phrase
  
  - Rattachement inter sujet
+ 
+détection et rattachement des sujets entre les phrases

@@ -2,6 +2,7 @@
 
 Analysing syntaxe, schema sentence and inter subject in a text Fr
 
+https://short-edition.com/fr/categorie/tres-tres-court
 
 <h1> Scrapping </h1>
 

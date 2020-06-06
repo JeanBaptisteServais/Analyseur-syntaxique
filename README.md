@@ -25,3 +25,20 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
 <h1> Rattachement inter sujet</h1>
  
 détection et rattachement des sujets entre les phrases
+
+
+utilisation:
+
+- télécharger éclipse
+
+- télécharger librarie de scrappage java
+
+- placer texte dans texte et le nommer 0.txt
+
+- placer ses paths
+
+- lancer programme 1 (sortie syntaxe + phrase)
+
+- lancer programme 2 (sortie 1 analyse syntaxique)
+
+

@@ -32,7 +32,7 @@ Analysing syntaxe, schema sentence and inter subject in a text Fr
 détection et rattachement des sujets entre les phrases
 
 
-utilisation:
+<h1>utilisation:</h1>
 
 - télécharger éclipse
 
@@ -46,7 +46,7 @@ utilisation:
 
 - lancer programme 2 (sortie 1 analyse syntaxique)
 
-ne peut pas:
+<h1> ne peut pas: </h1>
 
  - différencier proprement un adjectif d'un participe passé. Choix du participe passé.
  - faire correctement la différence entre un nom commun et un adjectif (qui peut etre un nom commun).

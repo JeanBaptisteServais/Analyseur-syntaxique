@@ -46,7 +46,9 @@ détection et rattachement des sujets entre les phrases
 
 - lancer programme 2 (sortie 1 analyse syntaxique)
 
-<h1> ne peut pas: </h1>
+<h1> ne peut pas:  </h1>
+
+ dans certains cas
 
  - différencier proprement un adjectif d'un participe passé. Choix du participe passé.
  - faire correctement la différence entre un nom commun et un adjectif (qui peut etre un nom commun).

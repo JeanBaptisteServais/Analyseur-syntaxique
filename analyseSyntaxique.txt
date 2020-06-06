@@ -1,0 +1,1645 @@
+Phrase numéro 0: contraction=le homme a construit son abri avec de fins branchages 
+
+[Article défini] contraction=le
+[Nom commun] homme
+[verbe#il a#Indicatif présent#] a
+[verbe#il construit#Indicatif présent#] construit
+[Adjectif possessif] son
+[Nom commun] abri
+[Préposition] avec de
+[Adjectif] fins
+[Nom commun] branchages
+
+
+
+Phrase numéro 1: dessus il a jeté un filet de mailles kaki . 
+
+[Adverbe] dessus
+[Pronom personnel] il
+[verbe#il a#Indicatif présent#] a
+[verbe#jeté#Participe passé masculin singulier#] jeté
+[Article indéfini] un
+[Nom commun] filet
+[Préposition] de
+[Adjectif] mailles
+[Nom commun] kaki
+[ponctuation] .
+
+
+
+Phrase numéro 2: Il souffle dans ses mains 
+
+[Pronom personnel] Il
+[verbe#je me souffle#Indicatif présent#] souffle
+[Préposition] dans
+[Adjectif possessif] ses
+[Nom commun] mains
+
+
+
+Phrase numéro 3: par habitude . 
+
+[Préposition] par
+[Nom commun] habitude
+[ponctuation] .
+
+
+
+Phrase numéro 4: Matthias ne sent pas le froid 
+
+[Nom propre] Matthias
+[Particule] ne
+[verbe#il sent#Indicatif présent#] sent
+[Adverbe] pas
+[Article défini] le
+[Nom commun] froid
+
+
+
+Phrase numéro 5: ni la faim 
+
+[Conjonction de coordination] ni
+[Forme d’article défini] la
+[Nom commun] faim
+
+
+
+Phrase numéro 6: jamais il contraction=ne a sommeil . 
+
+[Adverbe] jamais
+[Pronom personnel] il
+[Particule] contraction=ne
+[verbe#il a#Indicatif présent#] a
+[Nom commun] sommeil
+[ponctuation] .
+
+
+
+Phrase numéro 7: Il contraction=ne est pas fait du même bois que ses congénères . 
+
+[Pronom personnel] Il
+[Particule] contraction=ne
+[verbe#il est#Indicatif présent#] est
+[Adverbe] pas
+[verbe#il fait#Indicatif présent#] fait
+[Article défini] du
+[Adverbe] même
+[Nom commun] bois
+[Pronom relatif] que
+[Adjectif possessif] ses
+[Adjectif] congénères
+[ponctuation] .
+
+
+
+Phrase numéro 8: contraction=se il ne vivait à contraction=le unisson des éléments 
+
+[Pronom personnel] contraction=se
+[Pronom personnel] il
+[Particule] ne
+[verbe#il vivait#Indicatif imparfait#] vivait
+[Préposition] à
+[Article défini] contraction=le
+[Nom commun] unisson
+[Forme d’article indéfini] des
+[Nom commun] éléments
+
+
+
+Phrase numéro 9: on le dirait extra-terrestre 
+
+[Pronom personnel] on
+[Pronom personnel] le
+[verbe#il dirait#Conditionnel présent#] dirait
+[Adjectif] extra-terrestre
+
+
+
+Phrase numéro 10: mais il est bel et bien terrien . 
+
+[Conjonction de coordination] mais
+[Pronom personnel] il
+[verbe#il est#Indicatif présent#] est
+[Adjectif] bel
+[Conjonction de coordination] et
+[Adverbe] bien
+[Nom commun] terrien
+[ponctuation] .
+
+
+
+Phrase numéro 11: Amoureux de la planète . 
+
+[Nom commun] Amoureux
+[Préposition] de
+[Forme d’article défini] la
+[Nom commun] planète
+[ponctuation] .
+
+
+
+Phrase numéro 12: Une passion dévorante qui le tient en éveil et le nourrit . 
+
+[article indéfini] Une
+[Nom commun] passion
+[Adjectif] dévorante
+[Pronom relatif] qui
+[Pronom personnel] le
+[verbe#il tient#Indicatif présent#] tient
+[Préposition] en
+[Nom commun] éveil
+[Conjonction de coordination] et
+[Pronom personnel] le
+[verbe#il nourrit#Indicatif présent#] nourrit
+[ponctuation] .
+
+
+
+Phrase numéro 13: Son eau 
+
+[Adjectif possessif] Son
+[Nom commun] eau
+
+
+
+Phrase numéro 14: contraction=le air contraction=que il respire et le feu qui contraction=le anime . 
+
+[Article défini] contraction=le
+[Nom commun] air
+[Pronom relatif] contraction=que
+[Pronom personnel] il
+[verbe#je respire#Indicatif présent#] respire
+[Conjonction de coordination] et
+[Article défini] le
+[Nom commun] feu
+[Pronom relatif] qui
+[Article défini, Pronom personnel] _
+[Nom commun, verbe#j'anime#Indicatif présent#] _
+[ponctuation] .
+
+
+
+Phrase numéro 15: contraction=ce est le début de contraction=le automne . 
+
+[Pronom démonstratif] contraction=ce
+[verbe#il est#Indicatif présent#] est
+[Article défini] le
+[Nom commun] début
+[Préposition] de
+[Article défini] contraction=le
+[Nom commun] automne
+[ponctuation] .
+
+
+
+Phrase numéro 16: Une bouffée de buée contraction=se échappe de ses lèvres entrouvertes . 
+
+[article indéfini] Une
+[Nom commun] bouffée
+[Préposition] de
+[Nom commun] buée
+[Pronom personnel] contraction=se
+[verbe#j'échappe#Indicatif présent#] échappe
+[Préposition] de
+[Adjectif possessif] ses
+[Nom commun] lèvres
+[Adjectif] entrouvertes
+[ponctuation] .
+
+
+
+Phrase numéro 17: Il veut laper le monde 
+
+[Pronom personnel] Il
+[verbe#il veut#Indicatif présent#] veut
+[verbe#] laper
+[Article défini] le
+[Nom commun] monde
+
+
+
+Phrase numéro 18: téter la sève de la vie . 
+
+[verbe#] téter
+[Forme d’article défini] la
+[Nom commun] sève
+[Préposition] de
+[Forme d’article défini] la
+[Nom commun] vie
+[ponctuation] .
+
+
+
+Phrase numéro 19: La capuche de sa parka a glissé 
+
+[Forme d’article défini] La
+[Nom commun] capuche
+[Préposition] de
+[Adjectif possessif] sa
+[Nom commun] parka
+[verbe#il a#Indicatif présent#] a
+[verbe#je glisse#Indicatif présent#] glissé
+
+
+
+Phrase numéro 20: ses cheveux bruns striés de givre . 
+
+[Adjectif possessif] ses
+[Nom commun] cheveux
+[Adjectif] bruns
+[Nom commun] striés
+[Préposition] de
+[Nom commun] givre
+[ponctuation] .
+
+
+
+Phrase numéro 21: Le froid tombe sans prévenir à cette altitude . 
+
+[Article défini] Le
+[Nom commun] froid
+[Adjectif] tombe
+[Préposition] sans
+[verbe#] prévenir
+[Préposition] à
+[Forme d’adjectif démonstratif] cette
+[Nom commun] altitude
+[ponctuation] .
+
+
+
+Phrase numéro 22: Il attend depuis le petit matin . 
+
+[Pronom personnel] Il
+[verbe#il attend#Indicatif présent#] attend
+[Préposition] depuis
+[Article défini] le
+[Adjectif] petit
+[Nom commun] matin
+[ponctuation] .
+
+
+
+Phrase numéro 23: à contraction=le heure où contraction=de autres rêvent sous la couette 
+
+[Préposition] à
+[Article défini] contraction=le
+[Nom commun] heure
+[Adverbe] où
+[Préposition] contraction=de
+[Forme d’adjectif indéfini] autres
+[verbe#ils rêvent#Indicatif présent#] rêvent
+[Préposition] sous
+[Forme d’article défini] la
+[Nom commun] couette
+
+
+
+Phrase numéro 24: il est à pied contraction=de œuvre dans son antre feuillu . 
+
+[Pronom personnel] il
+[verbe#il est#Indicatif présent#] est
+[Préposition] à
+[Nom commun] pied
+[Préposition] contraction=de
+[Nom commun] œuvre
+[Préposition] dans
+[Adjectif possessif] son
+[Nom commun] antre
+[Adjectif] feuillu
+[ponctuation] .
+
+
+
+Phrase numéro 25: contraction=ce est son père qui contraction=le a initié . 
+
+[Pronom démonstratif] contraction=ce
+[verbe#il est#Indicatif présent#] est
+[Adjectif possessif] son
+[Nom commun] père
+[Pronom relatif] qui
+[Pronom personnel] contraction=le
+[verbe#il a#Indicatif présent#] a
+[verbe#j'initie#Indicatif présent#] initié
+[ponctuation] .
+
+
+
+Phrase numéro 26: Ils partaient tous les deux dans la forêt 
+
+[Pronom personnel] Ils
+[verbe#ils partaient#Indicatif imparfait#] partaient
+[Nom commun] tous les deux
+[Préposition] dans
+[Forme d’article défini] la
+[Nom commun] forêt
+
+
+
+Phrase numéro 27: la première fois il avait cinq ans . 
+
+[Forme d’article défini] la
+[Adjectif] première
+[Nom commun] fois
+[Pronom personnel] il
+[verbe#il avait#Indicatif imparfait#] avait
+[Adjectif numéral] cinq
+[Nom commun] ans
+[ponctuation] .
+
+
+
+Phrase numéro 28: à dix ans il savait reconnaître le chant des oiseaux 
+
+[Préposition] à
+[Adjectif numéral] dix
+[Nom commun] ans
+[Pronom personnel] il
+[verbe#il savait#Indicatif imparfait#] savait
+[verbe#] reconnaître
+[Article défini] le
+[Nom commun] chant
+[Forme d’article indéfini] des
+[Nom commun] oiseaux
+
+
+
+Phrase numéro 29: les imitait lors des repas de famille contraction=que il exécrait . 
+
+[Pronom personnel] les
+[verbe#il imitait#Indicatif imparfait#] imitait
+[Adverbe] lors
+[Forme d’article indéfini] des
+[Nom commun] repas
+[Préposition] de
+[Nom commun] famille
+[Pronom relatif] contraction=que
+[Pronom personnel] il
+[verbe#il s'exécrait#Indicatif imparfait#] exécrait
+[ponctuation] .
+
+
+
+Phrase numéro 30: La grive musicienne 
+
+[Forme d’article défini] La
+[Nom commun] grive
+[Adjectif] musicienne
+
+
+
+Phrase numéro 31: le geai cajolant 
+
+[Article défini] le
+[Nom commun] geai
+[verbe#cajolant#Participe présent#] cajolant
+
+
+
+Phrase numéro 32: le merle chanteur quand il ne jase . 
+
+[Article défini] le
+[Nom commun] merle
+[Adjectif] chanteur
+[Conjonction] quand
+[Pronom personnel] il
+[Particule] ne
+[verbe#je jase#Indicatif présent#] jase
+[ponctuation] .
+
+
+
+Phrase numéro 33: Alors il écoutait se lamenter une chouette à moins contraction=que elle ne réponde à sa voisine la huppe . 
+
+[Adverbe] Alors
+[Pronom personnel] il
+[verbe#il écoutait#Indicatif imparfait#] écoutait
+[Pronom personnel] se
+[verbe#] lamenter
+[article indéfini] une
+[Nom commun] chouette
+[Préposition] à
+[Adverbe] moins
+[Pronom relatif] contraction=que
+[Pronom personnel] elle
+[Particule] ne
+[verbe#que je réponde#Subjonctif présent#] réponde
+[Préposition] à
+[Adjectif possessif] sa
+[Nom commun] voisine
+[Forme d’article défini] la
+[Nom commun] huppe
+[ponctuation] .
+
+
+
+Phrase numéro 34: Aux banquets de son enfance 
+
+[Forme d’article défini] Aux
+[Nom commun] banquets
+[Préposition] de
+[Adjectif possessif] son
+[Nom commun] enfance
+
+
+
+Phrase numéro 35: il préfère casser la croûte contraction=de un quignon de pain agrémenté de fromage . 
+
+[Pronom personnel] il
+[verbe#je préfère#Indicatif présent#] préfère
+[verbe#] casser
+[Forme d’article défini] la
+[Nom commun] croûte
+[Préposition] contraction=de
+[Article indéfini] un
+[Nom commun] quignon
+[Préposition] de
+[Nom commun] pain
+[verbe#j'agrémente#Indicatif présent#] agrémenté
+[Préposition] de
+[Adjectif] fromage
+[ponctuation] .
+
+
+
+Phrase numéro 36: Il contraction=ne en repère pas le goût 
+
+[Pronom personnel] Il
+[Particule] contraction=ne
+[Pronom personnel] en
+[verbe#je me repère#Indicatif présent#] repère
+[Adverbe] pas
+[Article défini] le
+[Nom commun] goût
+
+
+
+Phrase numéro 37: un sens peu développé chez lui . 
+
+[Article indéfini] un
+[Nom commun] sens
+[Adverbe] peu
+[verbe#je développe#Indicatif présent#] développé
+[Préposition] chez
+[Pronom personnel] lui
+[ponctuation] .
+
+
+
+Phrase numéro 38: comme contraction=le aveugle développe son ouïe 
+
+[Adverbe] comme
+[Article défini] contraction=le
+[Nom commun] aveugle
+[verbe#je développe#Indicatif présent#] développe
+[Adjectif possessif] son
+[Nom commun] ouïe
+
+
+
+Phrase numéro 39: Matthias possède contraction=le œil acéré du lynx et contraction=le oreille en permanence aux aguets 
+
+[Nom propre] Matthias
+[verbe#je possède#Indicatif présent#] possède
+[Article défini] contraction=le
+[Nom commun] œil
+[verbe#j'acère#Indicatif présent#] acéré
+[Article défini] du
+[Nom commun] lynx
+[Conjonction de coordination] et
+[Article défini] contraction=le
+[Nom commun] oreille
+[Préposition] en
+[Nom commun] permanence
+[Forme d’article défini] aux
+[Nom commun] aguets
+
+
+
+Phrase numéro 40: mais ses papilles restent insensibles aux délices des gourmets . 
+
+[Conjonction de coordination] mais
+[Adjectif possessif] ses
+[Nom commun] papilles
+[verbe#ils restent#Indicatif présent#] restent
+[Adjectif] insensibles
+[Forme d’article défini] aux
+[Nom commun] délices
+[Forme d’article indéfini] des
+[Nom commun] gourmets
+[ponctuation] .
+
+
+
+Phrase numéro 41: Toujours silencieux . 
+
+[Adverbe] Toujours
+[Nom commun] silencieux
+[ponctuation] .
+
+
+
+Phrase numéro 42: La forêt est sacrée 
+
+[Forme d’article défini] La
+[Nom commun] forêt
+[Adjectif] est
+[verbe#sacrée#Participe passé féminin singulier#, Adjectif] _
+
+
+
+Phrase numéro 43: contraction=ce est le domaine des bêtes 
+
+[Pronom démonstratif] contraction=ce
+[verbe#il est#Indicatif présent#] est
+[Article défini] le
+[Nom commun] domaine
+[Forme d’article indéfini] des
+[Nom commun] bêtes
+
+
+
+Phrase numéro 44: leur univers . 
+
+[Adjectif possessif] leur
+[Nom commun] univers
+[ponctuation] .
+
+
+
+Phrase numéro 45: Dès contraction=que il foule leur sol 
+
+[Forme d’article indéfini] Dès
+[Pronom relatif] contraction=que
+[Pronom personnel] il
+[verbe#je foule#Indicatif présent#] foule
+[Adjectif possessif] leur
+[Nom commun] sol
+
+
+
+Phrase numéro 46: il devient un hôte discret évoluant sur la pointe de ses pieds chaussés de crêpe . 
+
+[Pronom personnel] il
+[verbe#il devient#Indicatif présent#] devient
+[Article indéfini] un
+[Nom commun] hôte
+[Adjectif] discret
+[verbe#évoluant#Participe présent#] évoluant
+[Préposition] sur
+[Forme d’article défini] la
+[Nom commun] pointe
+[Préposition] de
+[Adjectif possessif] ses
+[Nom commun] pieds
+[verbe#tu chausses#Indicatif présent#] chaussés
+[Préposition] de
+[Nom commun] crêpe
+[ponctuation] .
+
+
+
+Phrase numéro 47: ne pas déranger la faune 
+
+[Adverbe] ne pas
+[verbe#] déranger
+[Forme d’article défini] la
+[Nom commun] faune
+
+
+
+Phrase numéro 48: préserver la flore et jouir du spectacle sans cesse renouvelé de contraction=le horizon en mouvement . 
+
+[verbe#] préserver
+[Forme d’article défini] la
+[Nom commun] flore
+[Conjonction de coordination] et
+[verbe#] jouir
+[Article défini] du
+[Nom commun] spectacle
+[Préposition] sans
+[Nom commun] cesse
+[verbe#renouvelé#Participe passé masculin singulier#] renouvelé
+[Préposition] de
+[Article défini] contraction=le
+[Nom commun] horizon
+[Préposition] en
+[Nom commun] mouvement
+[ponctuation] .
+
+
+
+Phrase numéro 49: Le respect comme une seconde peau . 
+
+[Article défini] Le
+[Nom commun] respect
+[Adverbe] comme
+[article indéfini] une
+[Adjectif] seconde
+[Nom commun] peau
+[ponctuation] .
+
+
+
+Phrase numéro 50: Matthias écoute les feuilles qui croustillent dans contraction=le air frisquet . 
+
+[Nom propre] Matthias
+[verbe#j'écoute#Indicatif présent#] écoute
+[Forme d’article défini] les
+[Nom commun] feuilles
+[Pronom relatif] qui
+[verbe#ils croustillent#Indicatif présent#] croustillent
+[Préposition] dans
+[Article défini] contraction=le
+[Nom commun] air
+[Adjectif] frisquet
+[ponctuation] .
+
+
+
+Phrase numéro 51: Des pas se font plus rapides 
+
+[Forme d’article indéfini] Des
+[Adverbe] pas
+[Pronom personnel] se
+[verbe#ils font#Indicatif présent#] font
+[Adverbe] plus
+[Nom commun] rapides
+
+
+
+Phrase numéro 52: avant contraction=le arrêt . 
+
+[Préposition] avant
+[Article défini] contraction=le
+[Nom commun] arrêt
+[ponctuation] .
+
+
+
+Phrase numéro 53: Un jeune marcassin couine après sa mère 
+
+[Article indéfini] Un
+[Adjectif] jeune
+[Nom commun] marcassin
+[verbe#je couine#Indicatif présent#] couine
+[Préposition] après
+[Adjectif possessif] sa
+[Nom commun] mère
+
+
+
+Phrase numéro 54: il danse sur lui-même en gémissant comme un enfant égaré . 
+
+[Pronom personnel] il
+[verbe#je danse#Indicatif présent#] danse
+[Préposition] sur
+[Pronom personnel] lui-même
+[Pronom personnel] en
+[verbe#gémissant#Participe présent#] gémissant
+[Adverbe] comme
+[Article indéfini] un
+[Nom commun] enfant égaré
+[ponctuation] .
+
+
+
+Phrase numéro 55: La laie contraction=ne est pas loin 
+
+[Forme d’article défini] La
+[Nom commun] laie
+[Particule] contraction=ne
+[verbe#il est#Indicatif présent#] est
+[Adverbe] pas loin
+
+
+
+Phrase numéro 56: bientôt elle entraîne son petit dans son sillage . 
+
+[Adverbe] bientôt
+[Pronom personnel] elle
+[verbe#j'entraîne#Indicatif présent#] entraîne
+[Adjectif possessif] son
+[Nom commun] petit
+[Préposition] dans
+[Adjectif possessif] son
+[Nom commun] sillage
+[ponctuation] .
+
+
+
+Phrase numéro 57: Matthias a eu le temps de dégainer 
+
+[Nom propre] Matthias
+[verbe#il a#Indicatif présent#] a
+[verbe#eu#Participe passé masculin singulier#] eu
+[Article défini] le
+[Nom commun] temps
+[Préposition] de
+[verbe#] dégainer
+
+
+
+Phrase numéro 58: il photographie plus vite que son ombre . 
+
+[Pronom personnel] il
+[verbe#je photographie#Indicatif présent#] photographie
+[Adverbe] plus
+[Adjectif] vite
+[Pronom relatif] que
+[Adjectif possessif, Nom commun] _
+[verbe#j'ombre#Indicatif présent#, Nom commun] _
+[ponctuation] .
+
+
+
+Phrase numéro 59: Il a aperçu le regard affolé du sanglier en herbe avant que contraction=le animal ne tourne la tête vers lui . 
+
+[Pronom personnel] Il
+[verbe#il a#Indicatif présent#] a
+[verbe#aperçu#Participe passé masculin singulier#] aperçu
+[Article défini] le
+[Nom commun] regard
+[verbe#j'affole#Indicatif présent#] affolé
+[Article défini] du
+[Nom commun] sanglier
+[Préposition] en
+[Nom commun] herbe
+[Préposition] avant
+[Conjonction coordination] que
+[Article défini] contraction=le
+[Nom commun] animal
+[Particule] ne
+[verbe#je tourne#Indicatif présent#] tourne
+[Forme d’article défini] la
+[Nom commun] tête
+[Préposition] vers
+[Pronom personnel] lui
+[ponctuation] .
+
+
+
+Phrase numéro 60: du grand art . 
+
+[Article défini] du
+[Adjectif] grand
+[Nom commun] art
+[ponctuation] .
+
+
+
+Phrase numéro 61: Le téléobjectif 
+
+[Article défini] Le
+[Nom commun] téléobjectif
+
+
+
+Phrase numéro 62: le troisième œil de contraction=le homme . 
+
+[Article défini] le
+[Adjectif] troisième
+[Nom commun] œil
+[Préposition] de
+[Article défini] contraction=le
+[Nom commun] homme
+[ponctuation] .
+
+
+
+Phrase numéro 63: Déjà hier il avait repéré leur va et vient 
+
+[Adverbe] Déjà hier
+[Pronom personnel] il
+[verbe#il avait#Indicatif imparfait#] avait
+[verbe#je me repère#Indicatif présent#] repéré
+[Pronom personnel] leur
+[verbe#il va#Indicatif présent#] va
+[Conjonction de coordination] et
+[verbe#il vient#Indicatif présent#] vient
+
+
+
+Phrase numéro 64: mais ce contraction=ne était pas le bon jour . 
+
+[Conjonction de coordination] mais
+[Adjectif démonstratif] ce
+[Particule] contraction=ne
+[verbe#il était#Indicatif imparfait#] était
+[Adverbe] pas
+[Article défini, Pronom personnel] _
+[Adverbe] bon
+[Nom commun] jour
+[ponctuation] .
+
+
+
+Phrase numéro 65: Matthias veut apprivoiser la bête avant de contraction=le immortaliser . 
+
+[Nom propre] Matthias
+[verbe#il veut#Indicatif présent#] veut
+[verbe#] apprivoiser
+[Forme d’article défini] la
+[Nom commun] bête
+[Préposition] avant de
+[Pronom personnel] contraction=le
+[verbe#] immortaliser
+[ponctuation] .
+
+
+
+Phrase numéro 66: Un dialogue ésotérique entre deux êtres 
+
+[Article indéfini] Un
+[Nom commun] dialogue
+[Adjectif] ésotérique
+[verbe#j'entre#Indicatif présent#, Préposition] _
+[Adjectif numéral] deux
+[Nom commun, Faute d’orthographe] _
+
+
+
+Phrase numéro 67: le lien des temps anciens tissé dans un lointain ailleurs . 
+
+[Article défini] le
+[Nom commun] lien
+[Forme d’article indéfini] des
+[Nom commun] temps
+[Adjectif] anciens
+[verbe#je tisse#Indicatif présent#] tissé
+[Préposition] dans
+[Article indéfini] un
+[Nom commun] lointain
+[Adverbe] ailleurs
+[ponctuation] .
+
+
+
+Phrase numéro 68: quelque part dans la chaîne du vivant 
+
+[Adverbe] quelque
+[Nom commun] part
+[Préposition] dans
+[Forme d’article défini] la
+[Nom commun] chaîne
+[Article défini] du
+[Nom commun] vivant
+
+
+
+Phrase numéro 69: quand on ne sait ce qui distingue contraction=le homme de contraction=le animal doté lui aussi contraction=de un langage . 
+
+[Conjonction] quand
+[Pronom personnel] on
+[Particule] ne
+[verbe#il sait#Indicatif présent#] sait
+[Adjectif démonstratif] ce
+[Pronom relatif] qui
+[verbe#je distingue#Indicatif présent#] distingue
+[Article défini] contraction=le
+[Nom commun] homme
+[Préposition] de
+[Article défini] contraction=le
+[Nom commun] animal
+[Adjectif] doté
+[Pronom personnel] lui
+[Adverbe] aussi
+[Préposition] contraction=de
+[Article indéfini] un
+[Nom commun] langage
+[ponctuation] .
+
+
+
+Phrase numéro 70: Des bribes de mots pour quémander la paix et le droit contraction=de embellir la terre . 
+
+[Forme d’article indéfini] Des
+[Nom commun] bribes
+[Préposition] de
+[Nom commun] mots
+[Préposition] pour
+[verbe#] quémander
+[Forme d’article défini] la
+[Nom commun] paix
+[Conjonction de coordination] et
+[Article défini] le
+[Nom commun] droit
+[Préposition] contraction=de
+[verbe#] embellir
+[Forme d’article défini] la
+[Nom commun] terre
+[ponctuation] .
+
+
+
+Phrase numéro 71: Le bonheur contraction=de être là 
+
+[Article défini] Le
+[Nom commun] bonheur
+[Préposition] contraction=de
+[Nom commun] être
+[Adverbe] là
+
+
+
+Phrase numéro 72: Chamarré 
+
+[Nom commun] Chamarré
+
+
+
+Phrase numéro 73: prêt pour la parade . 
+
+[Nom commun] prêt
+[Préposition] pour
+[Forme d’article défini] la
+[Nom commun] parade
+[ponctuation] .
+
+
+
+Phrase numéro 74: de contraction=le infiniment petit au plus grand 
+
+[Préposition] de
+[Article défini] contraction=le
+[Adverbe] infiniment
+[Nom commun] petit
+[Forme d’article défini, Nom commun] _
+[Adverbe] plus
+[Nom commun] grand
+
+
+
+Phrase numéro 75: une symphonie inachevée 
+
+[article indéfini] une
+[Nom commun] symphonie
+[Adjectif] inachevée
+
+
+
+Phrase numéro 76: la toile contraction=de un maître dont le génie caresse la perfection 
+
+[Forme d’article défini] la
+[Nom commun] toile
+[Préposition] contraction=de
+[Article indéfini] un
+[Nom commun] maître
+[Pronom relatif] dont
+[Article défini] le
+[Nom commun] génie
+[verbe#je caresse#Indicatif présent#] caresse
+[Forme d’article défini] la
+[Nom commun] perfection
+
+
+
+Phrase numéro 77: sous les fragrances de sous-bois aux arômes contraction=de humus mêlé de moisissures . 
+
+[Préposition] sous
+[Forme d’article défini] les
+[Nom commun] fragrances
+[Préposition] de
+[Nom commun] sous-bois
+[Forme d’article défini] aux
+[Nom commun] arômes
+[Préposition] contraction=de
+[Humus, Nom commun] _
+[Adjectif] mêlé
+[Préposition] de
+[Nom commun] moisissures
+[ponctuation] .
+
+
+
+Phrase numéro 78: Le temps suspendu aux confins de contraction=le éternité . 
+
+[Article défini] Le
+[Nom commun] temps
+[verbe#suspendu#Participe passé masculin singulier#] suspendu
+[Forme d’article défini] aux
+[Nom commun] confins
+[Préposition] de
+[Article défini] contraction=le
+[Nom commun] éternité
+[ponctuation] .
+
+
+
+Phrase numéro 79: Matthias lève son visage vers les cieux 
+
+[Nom propre] Matthias
+[verbe#je lève#Indicatif présent#] lève
+[Adjectif possessif] son
+[Nom commun] visage
+[Préposition] vers
+[Forme d’article défini] les
+[Nom commun] cieux
+
+
+
+Phrase numéro 80: il rend grâce . 
+
+[Pronom personnel] il
+[verbe#il rend#Indicatif présent#] rend
+[Nom commun] grâce
+[ponctuation] .
+
+
+
+Phrase numéro 81: Prières muettes à la création . 
+
+[verbe#] Prières
+[Adjectif] muettes
+[Préposition] à
+[Forme d’article défini] la
+[Nom commun] création
+[ponctuation] .
+
+
+
+Phrase numéro 82: pour tant de beauté . 
+
+[Préposition] pour
+[Adverbe] tant
+[Préposition] de
+[Nom commun] beauté
+[ponctuation] .
+
+
+
+Phrase numéro 83: La dernière étoile contraction=se est éteinte 
+
+[Forme d’article défini] La
+[Nom commun] dernière étoile
+[Pronom personnel] contraction=se
+[verbe#il est#Indicatif présent#] est
+[verbe#éteinte#Participe passé féminin singulier#] éteinte
+
+
+
+Phrase numéro 84: il fait jour . 
+
+[Pronom personnel] il
+[Adjectif] fait
+[Nom commun] jour
+[ponctuation] .
+
+
+
+Phrase numéro 85: contraction=le air de cristal a chassé les ultimes vapeurs . 
+
+[Article défini] contraction=le
+[Nom commun] air
+[Préposition] de
+[Nom commun] cristal
+[verbe#il a#Indicatif présent#] a
+[verbe#je chasse#Indicatif présent#] chassé
+[Forme d’article défini] les
+[Adjectif] ultimes
+[Nom commun] vapeurs
+[ponctuation] .
+
+
+
+Phrase numéro 86: La brume évanouie 
+
+[Forme d’article défini] La
+[Nom commun] brume
+[verbe#évanouie#Participe passé féminin singulier#] évanouie
+
+
+
+Phrase numéro 87: elle déposera son tapis de rosée 
+
+[Pronom personnel] elle
+[verbe#il déposera#Indicatif futur simple#] déposera
+[Adjectif possessif] son
+[Nom commun] tapis
+[Préposition] de
+[Nom commun] rosée
+
+
+
+Phrase numéro 88: Un aigle royal auréole la canopée . 
+
+[Article indéfini] Un
+[Nom commun] aigle
+[Adjectif] royal
+[verbe#j'auréole#Indicatif présent#] auréole
+[Forme d’article défini] la
+[Nom commun] canopée
+[ponctuation] .
+
+
+
+Phrase numéro 89: Il dessine des cercles paresseux dans contraction=le azur ?Je te domine? semble te il murmurer à Matthias . 
+
+[Pronom personnel] Il
+[verbe#je dessine#Indicatif présent#] dessine
+[Forme d’article indéfini] des
+[Nom commun] cercles
+[Adjectif] paresseux
+[Préposition] dans
+[Article défini] contraction=le
+[Nom commun] azur
+[Nom propre] ?Je
+[Pronom personnel] te
+[verbe#je domine#Indicatif présent#] domine?
+[verbe#je semble#Indicatif présent#] semble
+[Pronom personnel] te
+[Pronom personnel] il
+[verbe#] murmurer
+[Préposition] à
+[Nom propre] Matthias
+
+
+
+Phrase numéro 90: contraction=le homme sourit 
+
+[Article défini] contraction=le
+[Nom commun] homme
+[verbe#il sourit#Indicatif présent#] sourit
+
+
+
+Phrase numéro 91: reconnaît la suprématie du rapace 
+
+[verbe#il reconnaît#Indicatif présent#] reconnaît
+[Forme d’article défini] la
+[Nom commun] suprématie
+[Article défini] du
+[Nom commun] rapace
+
+
+
+Phrase numéro 92: il aime cette humilité . 
+
+[Pronom personnel] il
+[verbe#j'aime#Indicatif présent#] aime
+[Forme d’adjectif démonstratif] cette
+[Nom commun] humilité
+[ponctuation] .
+
+
+
+Phrase numéro 93: Lui ne vole pas 
+
+[Pronom personnel] Lui
+[Particule] ne
+[verbe#je vole#Indicatif présent#] vole
+[Adverbe] pas
+
+
+
+Phrase numéro 94: il chasse . 
+
+[Pronom personnel] il
+[verbe#je chasse#Indicatif présent#] chasse
+[ponctuation] .
+
+
+
+Phrase numéro 95: Déjà il pointe contraction=le objectif 
+
+[Adverbe] Déjà
+[Pronom personnel] il
+[verbe#je me pointe#Indicatif présent#] pointe
+[Article défini] contraction=le
+[Nom commun] objectif
+
+
+
+Phrase numéro 96: contraction=le aigle immortalisé 
+
+[Article défini] contraction=le
+[Nom commun] aigle
+[verbe#j'immortalise#Indicatif présent#] immortalisé
+
+
+
+Phrase numéro 97: en majesté 
+
+[Préposition] en
+[Nom commun] majesté
+
+
+
+Phrase numéro 98: on dirait contraction=que il sourit . 
+
+[Pronom personnel] on
+[verbe#il dirait#Conditionnel présent#] dirait
+[Conjonction] contraction=que
+[Pronom personnel] il
+[verbe#il sourit#Indicatif présent#] sourit
+[ponctuation] .
+
+
+
+Phrase numéro 99: pour ces instants de plénitude 
+
+[Préposition] pour
+[Forme d’adjectif démonstratif] ces
+[Nom commun] instants
+[Préposition] de
+[Nom commun] plénitude
+
+
+
+Phrase numéro 100: Matthias accepte contraction=le inconfort et rentre souvent bredouille 
+
+[Nom propre] Matthias
+[verbe#j'accepte#Indicatif présent#] accepte
+[Article défini] contraction=le
+[Nom commun] inconfort
+[Conjonction de coordination] et
+[verbe#je rentre#Indicatif présent#] rentre
+[Adverbe] souvent
+[Nom commun] bredouille
+
+
+
+Phrase numéro 101: quand il contraction=ne a pas su dénicher contraction=le âme de son modèle . 
+
+[Conjonction] quand
+[Pronom personnel] il
+[Particule] contraction=ne
+[verbe#il a#Indicatif présent#] a
+[Adverbe] pas
+[verbe#su#Participe passé masculin singulier#] su
+[verbe#] dénicher
+[Article défini] contraction=le
+[Nom commun] âme
+[Préposition] de
+[Adjectif possessif, Nom commun] _
+[verbe#je modèle#Indicatif présent#, Nom commun] _
+[ponctuation] .
+
+
+
+Phrase numéro 102: contraction=ce est dans sa tête que se blottissent les plus beaux clichés 
+
+[Pronom démonstratif] contraction=ce
+[verbe#il est#Indicatif présent#] est
+[Préposition] dans
+[Adjectif possessif] sa
+[Nom commun] tête
+[Pronom relatif] que
+[Pronom personnel] se
+[verbe#ils se blottissent#Indicatif présent#] blottissent
+[Forme d’article défini, Pronom personnel] _
+[Adverbe] plus
+[Adjectif] beaux
+[Nom commun] clichés
+
+
+
+Phrase numéro 103: son trésor . 
+
+[Adjectif possessif] son
+[Nom commun] trésor
+[ponctuation] .
+
+
+
+Phrase numéro 104: souvent il partage ses sensations 
+
+[Adverbe] souvent
+[Pronom personnel] il
+[verbe#je partage#Indicatif présent#] partage
+[Adjectif possessif] ses
+[Nom commun] sensations
+
+
+
+Phrase numéro 105: une sorte de témoignage 
+
+[article indéfini] une
+[Nom commun] sorte
+[Préposition] de
+[Nom commun] témoignage
+
+
+
+Phrase numéro 106: mais il reste au fond de lui une part de sublime que lui-même ignore . 
+
+[Conjonction de coordination] mais
+[Pronom personnel] il
+[verbe#je reste#Indicatif présent#] reste
+[Forme d’article défini] au
+[Nom commun] fond
+[Préposition] de
+[Pronom personnel] lui
+[article indéfini] une
+[Nom commun] part
+[Préposition] de
+[Nom commun] sublime
+[Pronom relatif] que
+[Pronom personnel] lui-même
+[verbe#j'ignore#Indicatif présent#] ignore
+[ponctuation] .
+
+
+
+Phrase numéro 107: Au moment où il contraction=se y attend le moins 
+
+[Forme d’article défini] Au
+[Nom commun] moment
+[Adverbe] où
+[Pronom personnel] il
+[Pronom personnel] contraction=se
+[Pronom personnel] y
+[verbe#il attend#Indicatif présent#] attend
+[Article défini, Pronom personnel] _
+[Adverbe] moins
+
+
+
+Phrase numéro 108: le film se déroule 
+
+[Article défini] le
+[Nom commun] film
+[Pronom personnel] se
+[verbe#je déroule#Indicatif présent#] déroule
+
+
+
+Phrase numéro 109: en rêve parfois 
+
+[Préposition, Pronom personnel] _
+[Nom commun, verbe#je rêve#Indicatif présent#] _
+[Adverbe] parfois
+
+
+
+Phrase numéro 110: de ce huit-cors entraperçu un matin de printemps 
+
+[Préposition] de
+[Adjectif démonstratif] ce
+[None] huit-cors
+[verbe#entraperçu#Participe passé masculin singulier#] entraperçu
+[Article indéfini] un
+[Nom commun] matin
+[Préposition] de
+[Nom commun] printemps
+
+
+
+Phrase numéro 111: qui réait à contraction=le orée de la forêt 
+
+[Pronom relatif] qui
+[verbe#il réait#Indicatif imparfait#] réait
+[Préposition] à
+[Article défini] contraction=le
+[Nom commun] orée
+[Préposition] de
+[Forme d’article défini] la
+[Nom commun] forêt
+
+
+
+Phrase numéro 112: invitant sa belle à une longue nuit contraction=de amour . 
+
+[Adjectif] invitant
+[Adjectif possessif] sa
+[Nom commun] belle
+[Préposition] à
+[article indéfini] une
+[Adjectif] longue
+[Nom commun] nuit
+[Préposition] contraction=de
+[Nom commun] amour
+[ponctuation] .
+
+
+
+Phrase numéro 113: Le brame du cerf . 
+
+[Article défini] Le
+[Nom commun] brame
+[Article défini] du
+[Nom commun] cerf
+[ponctuation] .
+
+
+
+Phrase numéro 114: Ou encore le faucon pèlerin survolant la crête contraction=de un cairn 
+
+[Conjonction de coordination] Ou
+[Adverbe] encore
+[Article défini] le
+[Nom commun] faucon
+[Adjectif] pèlerin
+[verbe#survolant#Participe présent#] survolant
+[Forme d’article défini] la
+[Nom commun] crête
+[Préposition] contraction=de
+[Article indéfini] un
+[Nom commun] cairn
+
+
+
+Phrase numéro 115: plus vite contraction=que une flèche . 
+
+[Adverbe] plus
+[Adjectif] vite
+[Conjonction coordination] contraction=que
+[article indéfini] une
+[Nom commun] flèche
+[ponctuation] .
+
+
+
+Phrase numéro 116: Peut-être était-ce en Asie 
+
+[Adverbe] Peut-être
+[None] était-ce
+[Pronom personnel] en
+[Nom propre] Asie
+
+
+
+Phrase numéro 117: ou en Afrique . 
+
+[Conjonction de coordination] ou
+[Pronom personnel] en
+[Nom propre] Afrique
+[ponctuation] .
+
+
+
+Phrase numéro 118: parce que 
+
+[Préposition] parce que
+
+
+
+Phrase numéro 119: assoiffé comme un enfant jamais rassasié 
+
+[Adjectif] assoiffé
+[Adverbe] comme
+[Article indéfini] un
+[Nom commun] enfant
+[Adverbe] jamais
+[Adjectif] rassasié
+
+
+
+Phrase numéro 120: Matthias parcourt le monde et ses vierges contrées . 
+
+[Nom propre] Matthias
+[verbe#il parcourt#Indicatif présent#] parcourt
+[Article défini] le
+[Nom commun] monde
+[Conjonction de coordination] et
+[Adjectif possessif] ses
+[Nom commun] vierges
+[Préposition, verbe#contrées#Participe passé féminin pluriel#] _
+[ponctuation] .
+
+
+
+Phrase numéro 121: Le soleil commence à chauffer . 
+
+[Article défini] Le
+[Nom commun] soleil
+[verbe#je commence#Indicatif présent#] commence
+[Préposition] à
+[verbe#] chauffer
+[ponctuation] .
+
+
+
+Phrase numéro 122: contraction=ce est contraction=le heure où les citadins ouvrent leurs volets . 
+
+[Pronom démonstratif] contraction=ce
+[verbe#il est#Indicatif présent#] est
+[Article défini] contraction=le
+[Nom commun] heure
+[Adverbe] où
+[Forme d’article défini] les
+[Nom commun] citadins
+[verbe#ils ouvrent#Indicatif présent#] ouvrent
+[Adjectif possessif] leurs
+[Nom commun] volets
+[ponctuation] .
+
+
+
+Phrase numéro 123: Il est temps de rentrer avant que de repartir . 
+
+[Pronom personnel] Il
+[Adjectif] est
+[Nom commun] temps
+[Préposition] de
+[verbe#] rentrer
+[Préposition] avant
+[Conjonction coordination] que
+[Préposition] de
+[verbe#] repartir
+[ponctuation] .
+
+
+
+Phrase numéro 124: Des voix humaines au loin . 
+
+[Forme d’article indéfini] Des
+[Nom commun] voix
+[Adjectif] humaines
+[Forme d’article défini, Nom commun] _
+[Adverbe] loin
+[ponctuation] .
+
+
+
+Phrase numéro 125: Matthias prie que ce ne soit pas les ennemis de ses amis . 
+
+[Nom propre] Matthias
+[verbe#je prie#Indicatif présent#] prie
+[Pronom relatif] que
+[Adjectif démonstratif] ce
+[Particule] ne
+[verbe#qu'il soit#Subjonctif présent#] soit
+[Adverbe] pas
+[Forme d’article défini] les
+[Nom commun] ennemis
+[Préposition] de
+[Adjectif possessif] ses
+[Nom commun] amis
+[ponctuation] .
+
+
+
+Phrase numéro 126: En silence il les prévient contraction=de un possible prédateur sauvez vous 
+
+[Préposition] En
+[Nom commun] silence
+[Pronom personnel] il
+[Pronom personnel] les
+[verbe#il prévient#Indicatif présent#] prévient
+[Forme d’article indéfini] contraction=de
+[Article indéfini] un
+[Nom commun] possible prédateur
+[verbe#vous sauvez#Indicatif présent#] sauvez
+[Pronom personnel] vous
+
+
+
+Phrase numéro 127: sauvez nous murmure te il au jeune faon et à la genette . 
+
+[verbe#vous sauvez#Indicatif présent#] sauvez
+[Pronom personnel] nous
+[verbe#je murmure#Indicatif présent#] murmure
+[Pronom personnel] te
+[Pronom personnel] il
+[Forme d’article défini] au
+[Adjectif] jeune
+[Nom commun] faon
+[Conjonction de coordination] et
+[Préposition] à la
+[Nom commun] genette
+[ponctuation] .
+
+
+
+Phrase numéro 128: les mésanges . 
+
+[Forme d’article défini] les
+[Nom commun] mésanges
+[ponctuation] .
+
+
+
+Phrase numéro 129: Cachez votre élégante robe 
+
+[verbe#vous cachez#Indicatif présent#] Cachez
+[Adjectif possessif, Adjectif] _
+[None] élégante
+[Nom commun] robe
+
+
+
+Phrase numéro 130: taisez vos mélodies . 
+
+[verbe#vous taisez#Indicatif présent#] taisez
+[Adjectif possessif] vos
+[Nom commun] mélodies
+[ponctuation] .
+
+
+
+Phrase numéro 131: Et quand le péril sera passé 
+
+[Conjonction de coordination] Et
+[Conjonction] quand
+[Article défini] le
+[Nom commun] péril
+[verbe#il sera#Indicatif futur simple#] sera
+[Préposition] passé
+
+
+
+
+
+
+											Jb & co Assureur Auto/Moto

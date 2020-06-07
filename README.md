@@ -43,6 +43,8 @@ L'homme a mis des brindille sur sa tante, l'homme a froit, il se souffle dans le
 
 ![sentence3](https://user-images.githubusercontent.com/54853371/83954342-950d2600-a848-11ea-9436-9e392aec8dfd.png)
 
+Difficulté d'identification : Le veillard marche et le vent, il souffle. <br>Il</br> tombe.
+
 
 <h1>utilisation:</h1>
 

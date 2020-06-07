@@ -90,7 +90,8 @@ public class groupAdverbial {
 			"en vérité", "précisément", "tout à fait", "volontier", "vraiment", "exact", "sûrement"};
 
 	private String[] temps = {"toujours", "hier", "aujourd'hui", "aujourde hui", "aujourde", "déjà",
-			"avant-hier", "jadis", "passé", "depuis-peu", "désormais", "alors", "longtemps", "tandis"
+			"avant-hier", "jadis", "passé", "depuis-peu", "désormais", "alors", "longtemps", "tandis", "auparavant",
+			"tard"
 			};
 	
 	private String[] négation = {"non", "jamais", "nullement", "pas", "point"};
@@ -115,6 +116,9 @@ public class groupAdverbial {
 		boolean maniere 	=  searchMatching(this.advb, this.maniere);
 		if (maniere) { return "manière"; }
 
+		boolean temps 		=  searchMatching(this.advb, this.temps);
+		if (temps) { return "temps"; }
+		
 		boolean lieu 		=  searchMatching(this.advb, this.lieu);
 		if (lieu) { return "lieu"; }
 		
@@ -123,9 +127,6 @@ public class groupAdverbial {
 		
 		boolean doute 		=  searchMatching(this.advb, this.doute);
 		if (doute) { return "doute"; }
-		
-		boolean temps 		=  searchMatching(this.advb, this.temps);
-		if (temps) { return "temps"; }
 		
 		boolean négation	=  searchMatching(this.advb, this.négation);
 		if (négation) { return "négation"; }

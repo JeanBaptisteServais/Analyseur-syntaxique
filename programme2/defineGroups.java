@@ -1,5 +1,8 @@
 package fr.jbaw.programme2;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -52,6 +55,8 @@ public class defineGroups  extends searchingInSentence {
 	private ArrayList<String> 			 containerSyntaxeSubject = new ArrayList<String>();
 	private ArrayList<String> 			 containerSyntaxeVerbal  = new ArrayList<String>();
 
+	private String SAVEPATH;
+
 
 
 
@@ -70,7 +75,7 @@ public class defineGroups  extends searchingInSentence {
 						ArrayList<String>            original,
 						ConjonctionDeCoordination    conjonction,
 						Map<String, String> 		 GROUPEINFORMATIONS,
-						ArrayList<String>            GROUPSOFGROUP) {
+						ArrayList<String>            GROUPSOFGROUP, String SAVEPATH) throws IOException {
 
 
 
@@ -92,7 +97,7 @@ public class defineGroups  extends searchingInSentence {
 		this.GROUPSOFGROUP                 = GROUPSOFGROUP;
 		
 		this.GROUPEINFORMATIONS            = GROUPEINFORMATIONS;
-
+		this.SAVEPATH                      = SAVEPATH;
 		
 		
 		
@@ -136,12 +141,6 @@ public class defineGroups  extends searchingInSentence {
         regroupingGroupByPrepositionGn(groupsSentence);
         System.out.println(groupsSentence + "1\n");
         
-        //regroupingGroupGnCnjnGn(groupsSentence);
-        //System.out.println(groupsSentence + "2\n");
-        
-        //regroupingGroupByVerbAdverb(groupsSentence);
-        //System.out.println(groupsSentence + "3\n");
-        
         regroupingGroupByPrepositionGn(groupsSentence);
         System.out.println(groupsSentence + "4\n");
 
@@ -153,9 +152,6 @@ public class defineGroups  extends searchingInSentence {
  
         regroupingGroupPrepoVerbeInfinitif(groupsSentence);
         System.out.println(groupsSentence + "7\n");
-  
-        //regroupingGroupPropoSubordonée(groupsSentence);
-        //System.out.println(groupsSentence + "\n");
 
         regroupingGroupByVerbWithVerb(groupsSentence);
         System.out.println(groupsSentence + "8\n");
@@ -219,24 +215,42 @@ public class defineGroups  extends searchingInSentence {
 		System.out.println("");
 		System.out.println("");
 		
-		//[gnomianl + gverbal(contient gadverb) + gnominal => COI]
-		//[Grel + gnomianl => cmplt]
-        schemaSentenceGroupVerbalGroupNominal(groupsSentence);
-        schemaSentenceGroupNominalGroupPrepositionel(groupsSentence);
-        schemaSentenceGroupVerbalGroupPrepositionel(groupsSentence);
-        schemaSentenceGroupVerbal(groupsSentence);
-        schemaSentenceGroupNominal(groupsSentence);
-        schemaSentenceAdverbe(groupsSentence);
-        schemaSentencePropositionSubordonéeRelative(groupsSentence, saveSentenceGroups);
-        schemaSentenceCnjnc(groupsSentence);
-		schemaSentenceCodPrep(groupsSentence);
-		schemaGprepAndPropo(groupsSentence);
-		schemaVerbPrepVerb(groupsSentence);
-		schemaGroupSujetVerbCod(groupsSentence);
-		schemaGroupSujetVerbCoi(groupsSentence);
-		schemaGroupCod(groupsSentence);
-		
-		
+		//[GNominal+0+2, GRel+3+3, GVerbal+4+5, GNominal+6+6]10
+
+		for (int index=0; index < 3; index++) {
+	        schemaSentenceGroupVerbalGroupNominal(groupsSentence);
+	        //System.out.println(groupsSentence + "1\n");
+	        schemaSentenceGroupNominalGroupPrepositionel(groupsSentence);
+	        //System.out.println(groupsSentence + "2\n");
+	        schemaSentenceGroupVerbalGroupPrepositionel(groupsSentence);
+	        //System.out.println(groupsSentence + "3\n");
+	        schemaSentenceGroupVerbal(groupsSentence);
+	        //System.out.println(groupsSentence + "4\n");
+	        schemaSentenceGroupNominal(groupsSentence);
+	        //System.out.println(groupsSentence + "5\n");
+	        schemaSentenceAdverbe(groupsSentence);
+	        //System.out.println(groupsSentence + "6\n");
+	        schemaSentencePropositionSubordonéeRelative(groupsSentence, saveSentenceGroups);
+	        //System.out.println(groupsSentence + "7\n");
+	        schemaSentenceCnjnc(groupsSentence);
+	        //System.out.println(groupsSentence + "8\n");
+			schemaSentenceCodPrep(groupsSentence);
+			//System.out.println(groupsSentence + "9\n");
+			schemaGprepAndPropo(groupsSentence);
+			//System.out.println(groupsSentence + "10\n");
+			schemaVerbPrepVerb(groupsSentence);
+			//System.out.println(groupsSentence + "11\n");
+			schemaGroupSujetVerbCod(groupsSentence);
+			//System.out.println(groupsSentence + "12\n");
+			schemaGroupSujetVerbCoi(groupsSentence);
+			//System.out.println(groupsSentence + "13\n");
+			schemaGroupCod(groupsSentence);
+			//System.out.println(groupsSentence + "14\n");
+			schemaSentenceGroupVerbalAdverb(groupsSentence);
+			//System.out.println(groupsSentence + "15\n");
+			
+		}
+
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
@@ -250,14 +264,7 @@ public class defineGroups  extends searchingInSentence {
 		System.out.println("");
 
 		displaySentence(groupsSentence, WORKLIST, saveSentenceGroups);
-	
-
-
-
 		definateSubjectPrincipal(containerSyntaxeSubject);
-		
-		
-
 	}
 	
 
@@ -274,7 +281,7 @@ public class defineGroups  extends searchingInSentence {
 
 
 	private void displaySentence(ArrayList<String> groupsSentence, Map<Integer, String> WORKLIST,
-								 ArrayList<String> saveSentenceGroups) {
+								 ArrayList<String> saveSentenceGroups) throws IOException {
 		
 		//System.out.println(this.currentText);
 
@@ -307,15 +314,15 @@ public class defineGroups  extends searchingInSentence {
 				boolean isCnjnc        		= shema.equalsIgnoreCase("GCNJNC");
 				boolean isGS_GV       	    = shema.equalsIgnoreCase("GS_GV");
 				boolean isGCOD_GPREP  		= shema.equalsIgnoreCase("GCOD_GPREP");
-				boolean isGCOI_Grel_gv      = shema.equalsIgnoreCase("GCOI_Grel_gv_");
 				boolean GS_GV_CMPLT_via_rel = shema.equalsIgnoreCase("GS_GV_CMPLT_via_rel");
 				boolean Gprep_gv            = shema.equalsIgnoreCase("Gprep_gv");
 				boolean GPREP_GCOD          = shema.equalsIgnoreCase("GPREP_GCOD");
 				boolean GPREP_GCOI          = shema.equalsIgnoreCase("GPREP_GCOI");
 				boolean Gprep_gv_Cod        = shema.equalsIgnoreCase("Gprep_gv_Cod");
 				boolean isGCOD_Grel_gv      = shema.equalsIgnoreCase("isGCOD_Grel_gv");
-				
-				
+				boolean isGCOI              = shema.equalsIgnoreCase("GCOI");
+
+						
 				
 				if      (isGCOI_gn_gv_p)      { COISentence(SentenceGroupInterest,       WORKLIST, begin); }
 				else if (isGCOI_gv_p)    	  { COISentence(SentenceGroupInterest,       WORKLIST, begin); }
@@ -329,13 +336,15 @@ public class defineGroups  extends searchingInSentence {
 				else if (isCnjnc)   		  { CNJNCsentence(SentenceGroupInterest,     WORKLIST, begin); }
 				else if (isGS_GV)   		  { CODSentence(SentenceGroupInterest,       WORKLIST, begin); }
 				else if (isGCOD_GPREP)   	  { CODSentence(SentenceGroupInterest,       WORKLIST, begin); }
-				else if (isGCOI_Grel_gv)	  { COISentence(SentenceGroupInterest,       WORKLIST, begin); }
 				else if (GS_GV_CMPLT_via_rel) { GREL2sentence(SentenceGroupInterest,     WORKLIST, begin); }
 				else if (Gprep_gv)            { GPREPsentence(SentenceGroupInterest,     WORKLIST, begin); }
 				else if (GPREP_GCOD)          { GPREPsentenceVerb(SentenceGroupInterest, WORKLIST, begin); }
 				else if (GPREP_GCOI)          { COISentence(SentenceGroupInterest,       WORKLIST, begin); }
 				else if (Gprep_gv_Cod)        { GPREPsentence(SentenceGroupInterest,     WORKLIST, begin); }
 				else if (isGCOD_Grel_gv)      { GRELCODsentence(SentenceGroupInterest,   WORKLIST, begin); }
+				else if (isGCOI)    	  	  { COISentence(SentenceGroupInterest,       WORKLIST, begin); }
+
+				
 			}
 		}
 	}
@@ -364,7 +373,7 @@ public class defineGroups  extends searchingInSentence {
 
 
 
-	private void CNJNCsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void CNJNCsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		String increment1    = "";
 		String increment2    = "";
@@ -401,11 +410,13 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
+
 	}
 
 	
 	
-	private void GRELCODsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GRELCODsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		String increment1    = "";
 		String increment2    = "";
@@ -500,10 +511,11 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 
 	
-	private void COISentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void COISentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		String increment1    = "";
 		String increment2    = "";
@@ -549,11 +561,12 @@ public class defineGroups  extends searchingInSentence {
 				int     key 		 = partSentence.getKey();
 				String  value        = partSentence.getValue();
 				boolean isInRange    = key >= beginFunction && key <= endFunction;
-
+	
 				boolean isGN         = function.equalsIgnoreCase("GNominal");
 				boolean isGV         = function.equalsIgnoreCase("GVerbal");
-				boolean isPrep       = function.equalsIgnoreCase("GPrep");
+				boolean isPrep       = function.equalsIgnoreCase("GPrep") || function.equalsIgnoreCase("GPrepVerbal");
 				boolean isGrel       = function.equalsIgnoreCase("GRel");
+				boolean isAdv        = function.equalsIgnoreCase("GAdverb");
 				
 				boolean GnBeforeGV = false;
 				if (isGN) { GnBeforeGV = localiseSchema(sentencePartInterest, beginFunction, endFunction, current, "GVerbal"); }
@@ -570,13 +583,13 @@ public class defineGroups  extends searchingInSentence {
 				else if (isInRange && isPrep && GnAfterGV) { increment1 += value; }
 				else if (isInRange && isPrep && GnAfterGV) { increment1 += value; }
 				else if (isInRange && isGrel)              { increment1 += value; }
+				else if (isInRange && isAdv)               { increment1 += value; }
 				
-				
-				if      (isInRange && (isGN || isPrep) && !alreadyGS)  		{ increment2 += groupSujet;    }
-				else if (isInRange && isGV && !alreadyGV) 				    { increment2 += groupNoyeau;   }
-				else if (isInRange && isPrep && GnAfterGV && !alreadyCmplt) { increment2 += cmpltIndirect; }
-				else if (isInRange && isPrep && GnAfterGV &&  alreadyCmplt) { increment2 += cos;           }
-				else if (isInRange && isGrel)                               { increment2 += propoRel;      }
+				if      (isInRange && (isGN || isPrep) && !alreadyGS && !GnAfterGV)  { increment2 += groupSujet;    }
+				else if (isInRange && isGV && !alreadyGV) 				    		 { increment2 += groupNoyeau;   }
+				else if (isInRange && isPrep && GnAfterGV && !alreadyCmplt) 		 { increment2 += cmpltIndirect; }
+				else if (isInRange && isPrep && GnAfterGV &&  alreadyCmplt) 		 { increment2 += cos;           }
+				else if (isInRange && isGrel)                               		 { increment2 += propoRel;      }
 				
 	
 				if (isInRange && prnmBefore && !prnmDirect) { 
@@ -585,17 +598,12 @@ public class defineGroups  extends searchingInSentence {
 				}
 				
 				
-				if (isInRange && (isGN || isPrep) && !alreadyGS)  		{ containerSyntaxeSubject.add(increment1); }
+				boolean isEmpty = containerSyntaxeSubject.size() == 0;
 
+				if 		(isInRange && (isGN || isPrep) && !alreadyGS && !GnAfterGV) { containerSyntaxeSubject.add(increment1); }
+				else if (isInRange && isGV && !alreadyGV && isEmpty)        		{ containerSyntaxeSubject.add(increment1); }
 				
-				
-				
-				
-				
-				
-				
-				
-				
+
 				
 				String keyGroup = Integer.toString(beginFunction) + "+" + Integer.toString(endFunction);
 				
@@ -609,6 +617,7 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 
 	
@@ -624,8 +633,9 @@ public class defineGroups  extends searchingInSentence {
 	String cmpltSujetNominal = "(Préposition du Groupe Sujet Nominal)";
 	String Prep              = "(Groupe Prépositionel Nominal)";
 	String COS               = "(Complément Objet Second)";
-	
-	private void CODSentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	String propoRel          = "(Proposition Relative)";
+
+	private void CODSentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		String  increment1 = "";  //In increment1 we adding syntaxe and words.
 		String  increment2 = "";  //In increments2 we adding schemas:
@@ -666,6 +676,8 @@ public class defineGroups  extends searchingInSentence {
 				boolean isGN       = function.equalsIgnoreCase("GNominal");
 				boolean isPrep     = function.equalsIgnoreCase("GPrep");
 				boolean isADV      = function.equalsIgnoreCase("GAdverb");
+				boolean isGrel     = function.equalsIgnoreCase("GRel");
+				
 				boolean isGprepIn  = GprepIndex >= beginFunction && GprepIndex <= endFunction;
 
 				
@@ -698,7 +710,9 @@ public class defineGroups  extends searchingInSentence {
 				else if (isInRange && isGN   && GnAfterGV)    			   { increment1 += value; }
 				else if (isInRange && isPrep && GnAfterGV)  			   { increment1 += value; }
 				else if (isInRange && isADV)                               { increment1 += value; }
-					
+				else if (isInRange && isGrel) 							   { increment1 += value; }
+				
+				
 				boolean noFollow   = firstGv - index < 2;
 				
 				//Schema display
@@ -717,15 +731,15 @@ public class defineGroups  extends searchingInSentence {
 				else if (isInRange && isPrep   && !GprepBefore && !prepAlr && !DirectAlady)   { increment2 += Prep; }
 				else if (isInRange && isPrep   && !GprepBefore && !prepAlr &&  DirectAlady)   { increment2 += COS; }
 				else if (isInRange && isGN     && GnAfterGV    && !DirectAlady)     	      { increment2 += cmpltdirect; }
-				
+				else if (isInRange && isGrel)     	      									  { increment2 += propoRel; }
 				
 				
 				if (isInRange && prnmBefore && !prnmDirect) { increment2 = replacing(increment2, cmpltdirect, pronomDirect); }
 
 				
-				if      (isInRange && isGN     && GnBeforeGV   && !sujetAlready)  { containerSyntaxeSubject.add(increment1); }
-				else if (isInRange && isGN     && nextIsGv     && !sujetAlready)  { containerSyntaxeSubject.add(increment1); }
-				
+				if      (isInRange && isGN && GnBeforeGV   && !sujetAlready)  { containerSyntaxeSubject.add(increment1); }
+				else if (isInRange && isGN && nextIsGv     && !sujetAlready)  { containerSyntaxeSubject.add(increment1); }
+				else if (isInRange && isGV) 								  { containerSyntaxeSubject.add(increment1); }
 				
 				
 				//Send schema to the last part (localise the subject in sentence with his action).
@@ -738,14 +752,14 @@ public class defineGroups  extends searchingInSentence {
 				else if (isInRange && isPrep && GnBeforeGV && sujetAlready)  { GROUPEINFORMATIONS.put(keyGroup, "GPREPOFSUJET"); }
 				else if (isInRange && isGN && nextIsGv && sujetAlready)      { GROUPEINFORMATIONS.put(keyGroup, "GSUJET");       }
 
-				
+
 
 	
 			}
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
-
+		writtingText(increment1, increment2);
 	}
 	
 	
@@ -803,15 +817,16 @@ public class defineGroups  extends searchingInSentence {
 
 
 
-	private void GVsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GVsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		
 		String increment1   = "";
 		String increment2   = "";
 
 		String groupVerbal  = "(Groupe Verbal)";
+		String groupAdverb  = "(Groupe Adverbial)";
 		String COD          = "(Pronom avec fonction Complement objet directe)";
-		String COI          = "(Pronom avec fonction Complement objet indirecte)";
+
 
 
 		for (int index=0; index < sentencePartInterest.size(); index++) {
@@ -832,7 +847,7 @@ public class defineGroups  extends searchingInSentence {
 
 			//For have a cod pronom no contains je tu il ...
 			boolean isPrnmInterest      = thisListContainsWordTwoCase(pronomPersonnelCOD, isPrnm.toLowerCase());
-			boolean containsContraction = isPrnm.toLowerCase().contains("cont");
+
 
 			
 			for(Entry<Integer, String> partSentence: WORKLISTSORTED.entrySet()) {
@@ -842,18 +857,27 @@ public class defineGroups  extends searchingInSentence {
 
 				boolean isInRange    = key >= beginFunction && key <= endFunction;
 				boolean isVerbal     = function.equalsIgnoreCase("GVerbal");
-				boolean isAlreadyInc = increment2.contains("(Groupe Verbal)");
+				boolean isAdverb     = function.equalsIgnoreCase("GAdverb");
+				
+				
+				boolean isAlreadyInc    = increment2.contains("(Groupe Verbal)");
+				boolean isAlreadyIncAdv = increment2.contains("(Groupe Adverbial)");
+				
 				boolean prnmBefore  = pronom < verb && pronom != -1 && verb != -1 && isPrnmInterest;
 				
 				boolean alreadyPrnmCod    = increment2.contains("(Pronom avec fonction Complement objet directe)");
 				
 				
 				if (isInRange && isVerbal)      { increment1 += value; }
-
+				if (isInRange && isAdverb)      { increment1 += value; }
 				
-				if (isInRange && isVerbal && !isAlreadyInc)     { increment2 += groupVerbal; }
-				if (isInRange && prnmBefore && !alreadyPrnmCod) { increment2 = replacing(increment2, groupVerbal, COD); }
-				if (isInRange && prnmBefore && !alreadyPrnmCod) { increment2 += " " + groupVerbal; }
+				if (isInRange && isVerbal &&   !isAlreadyInc)     { increment2 += groupVerbal; }
+				if (isInRange && prnmBefore && !alreadyPrnmCod)   { increment2 = replacing(increment2, groupVerbal, COD); }
+				if (isInRange && prnmBefore && !alreadyPrnmCod)   { increment2 += " " + groupVerbal; }
+				if (isInRange && isAdverb &&   !isAlreadyIncAdv)  { increment2 += " " + groupAdverb; }
+				
+				
+
 				
 				
 				String keyGroup = Integer.toString(beginFunction) + "+" + Integer.toString(endFunction);
@@ -864,7 +888,7 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
-		
+		writtingText(increment1, increment2);
 	}
 
 
@@ -883,7 +907,7 @@ public class defineGroups  extends searchingInSentence {
 			boolean isMatching = value.contains(string) || string.contains(value);
 
 			if (isMatching && inRange) { 
-				try{ prnm = value.substring(value.lastIndexOf(string), value.lastIndexOf(string) + 15); } catch (Exception e) {
+				try{ prnm = value.substring(value.lastIndexOf(string), value.lastIndexOf(string) + 20); } catch (Exception e) {
 					try{ prnm = value.substring(value.lastIndexOf(string), value.lastIndexOf(string) + 9); } catch (Exception e3) {
 						try{ prnm = value.substring(value.lastIndexOf(string), value.lastIndexOf(string) + 5); } catch (Exception e1) {
 							try{ prnm = value.substring(value.lastIndexOf(string), value.lastIndexOf(string) + 3); } catch (Exception e2) {}
@@ -928,7 +952,7 @@ public class defineGroups  extends searchingInSentence {
 
 
 
-	private void GPREPsentenceVerb(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GPREPsentenceVerb(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart)  throws IOException {
 
 		String increment1    = "";
 		String increment2    = "";
@@ -1000,11 +1024,12 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 	
 	
 
-	private void GPREPsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GPREPsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException  {
 
 		String increment1    = "";
 		String increment2    = "";
@@ -1064,6 +1089,10 @@ public class defineGroups  extends searchingInSentence {
 
 				
 				
+				
+				if (isInRange  && isGN && !isAlreadyIn && !alreadyVrb) { containerSyntaxeSubject.add(increment1); }
+				
+				
 				String  keyGroup   = Integer.toString(beginFunction) + "+" + Integer.toString(endFunction);
 
 				boolean isBeforeGv = (endFunction + 1) == gvIndex;
@@ -1083,12 +1112,13 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 	
 	
 	
 	
-	private void GADVsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GADVsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart)  throws IOException {
 
 		String increment1     = "";
 		String increment2     = "";
@@ -1125,11 +1155,16 @@ public class defineGroups  extends searchingInSentence {
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 	
 	
 	
-	private void GRELsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+
+	
+	
+	
+	private void GRELsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException  {
 
 		String increment1   = "";
 		String increment2   = "";
@@ -1137,17 +1172,19 @@ public class defineGroups  extends searchingInSentence {
 		String groupSubRel  = "(Préposition subordonée relative)";
 		String groupCmplt1  = "(complément de l'antécédent Nominal)";
 		String groupCmplt2  = "(complément de l'antécédent Verbal)";
+		String groupSujet   = "(Groupe Sujet)";
+		String groupVerbal  = "(Groupe groupVerbal)";
+		String groupCmplt   = "(<- complément de l'antécédent)";
 		
-
 		for (int index=0; index < sentencePartInterest.size(); index++) {
 			
-			String   current          = sentencePartInterest.get(index);
-			String[] groups           = current.split("[+]");
-			String   function 		  = groups[0];
-			int      beginFunction    = Integer.parseInt(groups[1]);
-			int      endFunction      = Integer.parseInt(groups[2]);
+			String   current       = sentencePartInterest.get(index);
+			String[] groups        = current.split("[+]");
+			String   function 	   = groups[0];
+			int      beginFunction = Integer.parseInt(groups[1]);
+			int      endFunction   = Integer.parseInt(groups[2]);
 
-			
+
 			Map<Integer, String> WORKLISTSORTED = new TreeMap<Integer, String>(WORKLIST);
 
 
@@ -1175,21 +1212,30 @@ public class defineGroups  extends searchingInSentence {
 				else if (isInRange && isGVerbal  && !Already2)            { increment2 += groupCmplt2;  }
 
 				
+				
+				Already1 = increment2.contains("(complément de l'antécédent Nominal)");
+				Already2 = increment2.contains("(complément de l'antécédent Verbal)");
+				if (Already1 && Already2) {increment2 = replacing(increment2, groupCmplt1, groupSujet) + groupCmplt;}
+				if (Already1 && Already2) {increment2 = replacing(increment2, groupCmplt2, groupVerbal);}
+				
+				
 				String keyGroup = Integer.toString(beginFunction) + "+" + Integer.toString(endFunction);
 				if (isInRange && isGRel)       { GROUPEINFORMATIONS.put(keyGroup, "GREL");  }
 				if (isInRange && isGNominal)   {   }
 				if (isInRange && isGVerbal)    { GROUPEINFORMATIONS.put(keyGroup, "GVERBAL"); }
 				
+				
 			}
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 	
 	
 	
 	
-	private void GREL2sentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GREL2sentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart)  throws IOException {
 
 		String increment1   = "";
 		String increment2   = "";
@@ -1249,6 +1295,7 @@ public class defineGroups  extends searchingInSentence {
 
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 	}
 	
 	
@@ -1262,7 +1309,7 @@ public class defineGroups  extends searchingInSentence {
 	
 	
 	
-	private void GNsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) {
+	private void GNsentence(ArrayList<String> sentencePartInterest, Map<Integer, String> WORKLIST, int indexPart) throws IOException {
 
 		String increment1   = "";
 		String increment2   = "";
@@ -1289,21 +1336,33 @@ public class defineGroups  extends searchingInSentence {
 				int     key 		= partSentence.getKey();
 				String  value       = partSentence.getValue();
 				boolean isInRange   = key >= beginFunction && key <= endFunction;
-				boolean isVerbal    = function.equalsIgnoreCase("GNominal");
+				boolean isGn         = function.equalsIgnoreCase("GNominal");
 
 				boolean alreadyIncremented = increment2.contains("Groupe Nominal");
 
-				if (isInRange && isVerbal) 						  { increment1 += value; }
-				if (isInRange && isVerbal && !alreadyIncremented) { increment2 += groupNominal; }
+				if (isInRange && isGn) 						  { increment1 += value; }
+				if (isInRange && isGn && !alreadyIncremented) { increment2 += groupNominal; }
 				
+				
+				
+				
+				
+				boolean fisrtGn = index == 0;
+				if (isInRange && isGn && !alreadyIncremented && fisrtGn) { containerSyntaxeSubject.add(increment1); }
+				
+
 				
 				String keyGroup = Integer.toString(beginFunction) + "+" + Integer.toString(endFunction);
-				if (isInRange && isVerbal) { GROUPEINFORMATIONS.put(keyGroup, "GNOMINAL"); }
+				if (isInRange && isGn) { GROUPEINFORMATIONS.put(keyGroup, "GNOMINAL"); }
 
+				
+				
+				
 			}
 		}
 		System.out.println(increment1);
 		System.out.println(Integer.toString(indexPart) + "-" + increment2 + "\n");
+		writtingText(increment1, increment2);
 		
 	}
 	
@@ -1585,17 +1644,27 @@ public class defineGroups  extends searchingInSentence {
 			
 			boolean lastIsGroupN = lastFunction.equalsIgnoreCase("GNominal");
 			boolean currentIsRel = function.equalsIgnoreCase("GRel");
-
+			boolean currentIsGn  = function.equalsIgnoreCase("GN");
+			
 			boolean nextIsGroupN = nextFunction.equalsIgnoreCase("GNominal");
 			boolean nextIsGroupV = nextFunction.equalsIgnoreCase("GVerbal");
 			boolean nextCod      = nextFunction.equalsIgnoreCase("GCOD");
+			boolean nextSrel     = nextFunction.equalsIgnoreCase("SRel");
+			boolean nextIsGs_GV  = nextFunction.equalsIgnoreCase("GS_GV");
 			
 			boolean nextX2IsGroupV = nextX2Function.equalsIgnoreCase("GVerbal");
-
-
-
 			
-			if (currentIsRel && nextIsGroupV) { 
+
+
+			if (currentIsRel && nextIsGs_GV) {
+				System.out.println("Proposition Suboordonée + Groupe Sujet + Groupe Verbal +"  + begin + "-" + nextX2End);
+				String newFunction = "SRel+" + begin + "+" + nextEnd;
+				groupsSentence.set(syntaxe, newFunction);
+				toRemove.add(groupsSentence.get(syntaxe + 1));
+
+			}
+			
+			else if (currentIsRel && nextIsGroupV) { 
 				makeASchem("Proposition Suboordonée + Groupe Verbal ", "SRel+", 
 						begin, nextEnd, syntaxe, false, true, groupsSentence, toRemove); 
 			}
@@ -1623,6 +1692,49 @@ public class defineGroups  extends searchingInSentence {
 		}
 		for (String elementToRemove: toRemove) {groupsSentence.remove(elementToRemove);}
 	}
+	
+	
+	private void schemaSentenceGroupVerbalAdverb(ArrayList<String> groupsSentence) {
+
+		ArrayList<String> toRemove = new ArrayList<String>();
+
+		for (int syntaxe = 0; syntaxe < groupsSentence.size(); syntaxe++) {
+
+
+			String[] last    	  = recuperateLastGroupsSentence(syntaxe,    groupsSentence);
+			String[] current 	  = recuperateCurrentGroupsSentence(syntaxe, groupsSentence);
+			String[] next         = recuperateNextGroupsSentence(syntaxe,    groupsSentence);
+
+			String   lastFunction = last[0];
+			String   lastBegin 	  = last[1];
+			String   lastEnd   	  = last[2];
+			
+			String   function     = current[0];
+			String   begin 	      = current[1];
+			String   end   	      = current[2];
+			
+			String   nextFunction = next[0];
+			String   nextBegin 	  = next[1];
+			String   nextEnd   	  = next[2];
+			
+
+
+			boolean isGv  = function.equalsIgnoreCase("GV");
+			
+			boolean isAdv = nextFunction.equalsIgnoreCase("GAdv");
+			
+			
+	
+			if (isGv && isAdv) { 
+				makeASchem("Groupe Verbal ", "GV+",  begin, nextEnd, syntaxe, false, true, groupsSentence, toRemove);
+			}
+
+			
+
+		}
+		for (String elementToRemove: toRemove) {groupsSentence.remove(elementToRemove);}
+	}
+	
 	
 	
 	
@@ -1711,6 +1823,7 @@ public class defineGroups  extends searchingInSentence {
 
 			boolean lastIsGn       = lastFunction.equalsIgnoreCase("GNominal");
 			boolean lastIsPrep     = lastFunction.equalsIgnoreCase("GPrep");
+			boolean lastIsCod      = lastFunction.contains("COD");
 			
 			boolean currentIsGn    = function.equalsIgnoreCase("GNominal");
 			boolean isGroupVerbal  = function.equalsIgnoreCase("GVerbal");
@@ -1747,18 +1860,18 @@ public class defineGroups  extends searchingInSentence {
 
 			}
 
-			else if (lastIsGn && currentIsPropo && nexrIsVerbal) {
-				makeASchem("groupe sujet + GPropoRel (gverb) ", "GCOI_Grel_gv_+",
-				lastBegin, nextEnd, syntaxe, true, true,
-				groupsSentence, toRemove);
-			
-			}
 
 			else if (lastIsGn && isGroupVerbal && nextIsGn)   {System.out.println("groupe sujet + cod " + lastBegin + "-" + nextEnd);
 															   String newFunction = "GCOD+" + lastBegin + "+" + nextEnd;
 															   groupsSentence.set(syntaxe - 1, newFunction); 
 															   toRemove.add(groupsSentence.get(syntaxe));
 															   toRemove.add(groupsSentence.get(syntaxe + 1));}
+			
+			else if (currentIsGn && nexrIsVerbal && (!nextIsGn && !nextIsPrep && !lastIsCod)) {
+
+				makeASchem("Groupe Sujet + Groupe Verbal ", "GS_GV+", 
+						begin, nextEnd, syntaxe, false, true, groupsSentence, toRemove);
+			}
 			
 			
 			else if (isGroupVerbal && nextIsGn) 	    	  {System.out.println("cod " + begin + "-" + nextEnd);
@@ -1778,10 +1891,7 @@ public class defineGroups  extends searchingInSentence {
 												  			  }
 			
 			
-			if (currentIsGn && nexrIsVerbal && (!nextIsGn && !nextIsPrep)) {
 
-				makeASchem("Groupe Sujet + Groupe Verbal ", "GS_GV+", 
-						begin, nextEnd, syntaxe, false, true, groupsSentence, toRemove);}
 
 			
 
@@ -1796,7 +1906,7 @@ public class defineGroups  extends searchingInSentence {
 
 	private void schemaGroupSujetVerbCoi(ArrayList<String> groupsSentence) {
 
-		System.out.println("\nschemaGroupSujetVerbCod " + groupsSentence);
+		System.out.println( groupsSentence);
 		
 		ArrayList<String> toRemove = new ArrayList<String>();
 
@@ -1821,11 +1931,38 @@ public class defineGroups  extends searchingInSentence {
 			
 
 			boolean currentIsGprep = function.equalsIgnoreCase("GPrep");
+			boolean isGv           = function.equalsIgnoreCase("GV");
+			boolean isCoi          = function.equalsIgnoreCase("GCOI");
+			
+			
 			boolean nextCoi        = nextFunction.equalsIgnoreCase("GCOI_gv_p");
+			boolean nextGprep      = nextFunction.equalsIgnoreCase("GPrep");
+			boolean nextGprepGv    = nextFunction.equalsIgnoreCase("Gprep_gv_Cod");
 
 
 			
-			if (currentIsGprep && nextCoi) {
+			if (isGv && nextGprepGv) {
+				System.out.println("Complément Objet Indirecte " + begin + "-" + nextEnd);
+				String newFunction = "GPREP_GCOI+" + begin + "+" + nextEnd;
+				groupsSentence.set(syntaxe, newFunction); 
+				toRemove.add(groupsSentence.get(syntaxe + 1));
+			}
+			
+			else if (isCoi && nextGprep) {
+				System.out.println("Complément Objet Indirecte " + begin + "-" + nextEnd);
+				String newFunction = "GCOI+" + begin + "+" + nextEnd;
+				groupsSentence.set(syntaxe, newFunction); 
+				toRemove.add(groupsSentence.get(syntaxe + 1));
+			}
+			
+			else if (isGv && nextGprep) {
+				System.out.println("Complément Objet Indirecte " + begin + "-" + nextEnd);
+				String newFunction = "GCOI+" + begin + "+" + nextEnd;
+				groupsSentence.set(syntaxe, newFunction); 
+				toRemove.add(groupsSentence.get(syntaxe + 1));
+			}
+			
+			else if (currentIsGprep && nextCoi) {
 				System.out.println("Groupe Sujet Prépositionel + Complement indirecte " + begin + "-" + nextEnd);
 				String newFunction = "GPREP_GCOI+" + begin + "+" + nextEnd;
 				groupsSentence.set(syntaxe, newFunction); 
@@ -1843,7 +1980,7 @@ public class defineGroups  extends searchingInSentence {
 	
 	private void schemaGroupSujetVerbCod(ArrayList<String> groupsSentence) {
 		
-		System.out.println("\nschemaGroupSujetVerbCod " + groupsSentence);
+
 		
 		ArrayList<String> toRemove = new ArrayList<String>();
 
@@ -2050,7 +2187,7 @@ public class defineGroups  extends searchingInSentence {
 
 	private void schemaGprepAndPropo(ArrayList<String> groupsSentence) {
 
-		//[GPrep+0+0, GCOD+1+4, GCOI_Grel_gv_+2+6, GCOI_gv_p+6+9, 10, GCOD_GPREP+11+19, 20]
+
 		
 		ArrayList<String> toRemove = new ArrayList<String>();
 
@@ -2463,6 +2600,12 @@ public class defineGroups  extends searchingInSentence {
 					displayGroup(4, syntaxe, syntaxe + 1, syntaxe + 2, syntaxe + 3, -1, -1,  
 							    arrow, "(vrb)", "(-> vrb)", "(Adv " + advFind3 + ")", "None", "None");
 				}
+				
+				else if (currentIsPrepo && nextIsPronom) {
+					displayGroup(2, syntaxe, syntaxe + 1, -1, -1, -1, -1,  
+						    arrow, "(Prnm)", "None", "None", "None", "None");
+				}
+				
 				else if (currentIsPrepo && nextIsVerb) {
 					displayGroup(2, syntaxe, syntaxe + 1, -1, -1, -1, -1,  
 							    arrow, "(vrb)", "None", "None", "None", "None");
@@ -2507,7 +2650,7 @@ public class defineGroups  extends searchingInSentence {
 				boolean nextX2Particule = Conditions(2, index, "equal", "Particule", null);
 				boolean nextX2IsPrnmRel = Conditions(2, index, "contains", "ronom relatif", null);
 	
-				
+
 				//Conditions from word (+3) syntaxe.
 				boolean nextX3IsPrnm  = Conditions(3, index, "contains", "ronom", null);
 				boolean nextX3IsAdv   = Conditions(3, index, "equals", "Adverbe", null);
@@ -2576,7 +2719,7 @@ public class defineGroups  extends searchingInSentence {
 					 displayGroup(3, index, index + 1, index + 2, -1, -1, -1, 
 							 "(Vrb)", "(Vrb)", "(Vrb)", "None", "None", "None");
 				}
-				
+
 				else if (currentIsNeg && nextIsVerb) {
 					displayGroup(2, index, index + 1, -1, -1, -1, -1, 
 							"(Neg)", "(Vrb)", "None", "None", "None", "None"); 
@@ -2667,7 +2810,7 @@ public class defineGroups  extends searchingInSentence {
 				boolean currentIsAdj  = listEqualsElement(current, "Adjectif");
 				boolean currentIsNc   = listEqualsElement(current, "Nom commun");
 				boolean currentIsNp   = listEqualsElement(current, "Nom propre");
-				
+				boolean currentIsInd  = listEqualsElement(current, "Pronom indéfini");
 				
 				boolean nextIsNm      = Conditions(1, syntaxe, "equal",    "Nom commun", null);
 				boolean nextIsAdj     = Conditions(1, syntaxe, "contains", "djectif", null);
@@ -2755,6 +2898,11 @@ public class defineGroups  extends searchingInSentence {
 				else if (currentIsNc && nextIsAdj) {
 					displayGroup(1, syntaxe, syntaxe + 1, -1, -1, -1, -1,
 						    "(Nm <-)", "(Adjectif)", "None", "None", "None", "None");}
+				
+				else if (currentIsInd) {
+					displayGroup(1, syntaxe, -1, -1, -1, -1, -1,
+						    "(Prnm indéfini)", "None", "None", "None", "None", "None");
+				}
 				
 				else if (currentIsNc) {
 					displayGroup(1, syntaxe, -1, -1, -1, -1, -1,
@@ -2977,7 +3125,7 @@ public class defineGroups  extends searchingInSentence {
 				
 				if (currentIsAdverbe && nextIsAdverb) {
 					displayGroup(2, syntaxe, syntaxe + 1, -1, -1, -1, -1,
-								 "(Adv " + advFind + ")", "(Adv" + advFindNext + ")", "None", "None", "None", "None");
+								 "(Adv " + advFind + ")", "(Adv " + advFindNext + ")", "None", "None", "None", "None");
 				}
 				
 				else if (currentIsAdverbe) {
@@ -3762,7 +3910,7 @@ public class defineGroups  extends searchingInSentence {
 			if (mode2) {length = recupDataTwo(groups, container);}
 
 			int 	indexEnd = indexBegening + length;
-			boolean inRange  = indexEnd < currentSyntaxe.size();
+			boolean inRange  = indexEnd < currentSyntaxe.size() && indexBegening > -1;
 			if (inRange) {
 				String display = group + "+" +Integer.toString(indexBegening)+ "+" +Integer.toString(indexEnd);
 				for (int index=indexBegening; index <= indexEnd; index++) {groupListDisplay.set(index, display);}
@@ -3849,7 +3997,7 @@ public class defineGroups  extends searchingInSentence {
 		
 		int    indexEnd = indexGroup + length;
 
-		boolean lengthInf           = indexGroup < currentText.size() && indexEnd < currentText.size();
+		boolean lengthInf           = indexGroup < currentText.size() && indexEnd < currentText.size() && indexGroup > -1;
 		boolean containerIsNotEmpty = container.size() > 0;
 		
 		if (containerIsNotEmpty && lengthInf) {
@@ -3888,7 +4036,26 @@ public class defineGroups  extends searchingInSentence {
 	
 	
 	
-	
+	private void writtingText(String writting1, String writting2) throws IOException {
+
+		File file = new File(SAVEPATH + "analyseSentence.txt");
+		if(!file.exists()) { file.createNewFile(); }
+
+
+		String sentence = ""; for (String element: currentText) { sentence += (element + " "); }
+		
+		FileWriter     writer = new FileWriter(file, true);
+		
+		writer.write("\n");
+		writer.write("\n");
+		writer.write("\n");
+		writer.write(sentence);
+		writer.write("\n");
+		writer.write(writting1);
+		writer.write("\n");
+		writer.write(writting2);
+		writer.close();
+	}
 
 	
 	

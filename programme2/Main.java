@@ -71,32 +71,26 @@ public class Main {
 		List<ArrayList<ArrayList<String>>> sentenceWordSplit = treatment.treatWordSyntaxeToList("Syntaxe word to list", syntaxeText);
 		treatmentText2(treatment, sentenceWordSplit);
 		
-
-
-		//-----------------------------------------------------------------------------Syntaxe analyseur.
-		//syntaxeText.size()
-		//for (int sentence=0; sentence < syntaxeText.size(); sentence++) {
-			
-		//	int sentenceNumber = sentence;
-
-		//	System.out.println(sentenceNumber);
-			
-		//	ChooseWordFunction chooseFunction = new ChooseWordFunction();
-		//	chooseFunction.ChooseWord(sentenceWordSplit, sentenceText, currentSyntaxeTreat, currentTextTreat, 
-		//							  sentenceNumber, saveSyntaxe, saveSchema, SAVEPATH);
-			
-		//	clearSentence(currentSyntaxeTreat, currentTextTreat);
-
-		//}
+		//Choice to decomment
+		//makeAnalyseSyntaxique(syntaxeText, sentenceWordSplit, sentenceText);
+		//makeAnalyseSentence(syntaxeText, sentenceWordSplit, sentenceText);
+		//makeAnalyseInterSubject(syntaxeText, sentenceWordSplit, sentenceText);
 		
-		//ChooseWordFunction chooseFunctionLogo = new ChooseWordFunction();
-		//chooseFunctionLogo.writtingLogo(SAVEPATH);
+		
 
-		//System.out.println(5/0);
+	}
+	
+	
 
-		//-----------------------------------------------------------------------------Sentence analyseur.
-		//syntaxeText.size()
-		for (int sentence=0; sentence < syntaxeText.size(); sentence++) {
+	
+	
+	
+	
+	
+
+	private static void makeAnalyseInterSubject(List<ArrayList<String>> syntaxeText,
+			List<ArrayList<ArrayList<String>>> sentenceWordSplit, List<ArrayList<String>> sentenceText) throws IOException {
+		for (int sentence=31; sentence < syntaxeText.size(); sentence++) {
 			
 			int sentenceNumber = sentence;
 
@@ -106,13 +100,8 @@ public class Main {
 			chooseFunction.ChooseWord(sentenceWordSplit, sentenceText, currentSyntaxeTreat, currentTextTreat, 
 									  sentenceNumber, saveSyntaxe, saveSchema, "");
 
-			//System.out.println(5/0);
-			//if (sentenceNumber == 3) {System.out.println(5/0);}
-			//if (sentenceNumber == 25) {System.out.println(5/0);}
 
 			//System.out.println("------------------------------------------------------------------------------ group nominal");
-
-
 			Map<Integer, String> groupNominalFunctionEndIndex   = new HashMap<Integer, String>();
 			Map<Integer, String> groupNominalFunctionBeginIndex = new HashMap<Integer, String>();
 			groupNominal         groupNominal = new groupNominal(currentSyntaxeTreat.get(0), currentTextTreat.get(0), 
@@ -183,13 +172,10 @@ public class Main {
 														 sentenceText.get(sentenceNumber),
 														 conjonction,
 														 GROUPEINFORMATIONS,
-														 GROUPS);
+														 GROUPS, "");
 			
 			System.out.println(currentTextTreat.get(0));
-			System.out.println(5/0);
-			//if (sentenceNumber == 18) {System.out.println(5/0);}
 
-	
 
 			System.out.println("------------------------------------------------------------------------------ quiquoiou ?");
 			searchWords searchWords = new searchWords(groupNominalFunctionBeginIndex,
@@ -222,16 +208,156 @@ public class Main {
 			clearSentence(currentSyntaxeTreat, currentTextTreat);
 
 		}
+		
 	}
+
+
+
+
+
+
+
+
+
+	private static void makeAnalyseSentence(List<ArrayList<String>> syntaxeText, List<ArrayList<ArrayList<String>>> sentenceWordSplit, 
+			List<ArrayList<String>> sentenceText) throws IOException {
+		
+	
+		for (int sentence=0; sentence < syntaxeText.size(); sentence++) {
+			
+			int sentenceNumber = sentence;
+
+			System.out.println(sentenceNumber);
+			
+			ChooseWordFunction chooseFunction = new ChooseWordFunction();
+			chooseFunction.ChooseWord(sentenceWordSplit, sentenceText, currentSyntaxeTreat, currentTextTreat, 
+									  sentenceNumber, saveSyntaxe, saveSchema, "");
+
+
+			Map<Integer, String> groupNominalFunctionEndIndex   = new HashMap<Integer, String>();
+			Map<Integer, String> groupNominalFunctionBeginIndex = new HashMap<Integer, String>();
+			groupNominal         groupNominal = new groupNominal(currentSyntaxeTreat.get(0), currentTextTreat.get(0), 
+																 groupNominalFunctionEndIndex, groupNominalFunctionBeginIndex);
+
+			groupNominal.nominalGroup();
+	
+
+			//------------------------------------------------------------------------------ groupe verbal
+			Map<Integer, String> groupsVerbalsMap                = new HashMap<Integer, String>();
+			Map<Integer, String> groupsVerbalsFunctionEndIndex   = new HashMap<Integer, String>();
+			Map<Integer, String> groupsVerbalsFunctionBeginIndex = new HashMap<Integer, String>();
+			Map<Integer, String> pronomToGNBeginIndex            = new HashMap<Integer, String>();
+	
+			groupVerbal groupVerbal = new groupVerbal(currentSyntaxeTreat.get(0), currentTextTreat.get(0),
+													  groupsVerbalsMap, pronomToGNBeginIndex, groupsVerbalsFunctionEndIndex,
+													  groupsVerbalsFunctionBeginIndex);
+			groupVerbal.verbalGroup();
+	
+
+	
+			//------------------------------------------------------------------------------ groupe adverbial
+			Map<Integer, String> adverbeFunction = new HashMap<Integer, String>();
+			groupAdverbial       groupAdverbial  = new groupAdverbial(currentSyntaxeTreat.get(0), currentTextTreat.get(0),
+																	  adverbeFunction);
+	
+
+			//------------------------------------------------------------------------------ proposition subordonée
+			Map<Integer, String>      propositionRelativeFunction = new HashMap<Integer, String>();
+			groupePropositionRelative Relative                    = new groupePropositionRelative(currentSyntaxeTreat.get(0), 
+																								  currentTextTreat.get(0), 
+																								  propositionRelativeFunction);
+			
+			
+			
+			//------------------------------------------------------------------------------groupe prepositionnel
+			Map<Integer, String> prepositionFunction = new HashMap<Integer, String>();
+			groupPrepositionel   groupPrepositionel  = new groupPrepositionel(currentSyntaxeTreat.get(0), currentTextTreat.get(0),
+													  					      prepositionFunction);
+			
+
+			
+	
+			//------------------------------------------------------------------------------conjonction coordination
+			Map<Integer, String> conjonctionLocalisation  = new HashMap<Integer, String>();
+			ConjonctionDeCoordination conjonction         = new ConjonctionDeCoordination(currentSyntaxeTreat.get(0), 
+																						  currentTextTreat.get(0),
+																						  conjonctionLocalisation);
 	
 	
 
 	
-	
-	
-	
-	
-	
+			//------------------------------------------------------------------------------ dépendances"
+			Map<String, String> GROUPEINFORMATIONS  = new HashMap<String, String>();
+			ArrayList<String> 	GROUPS 				= new ArrayList<String>();
+
+
+			System.out.println(currentTextTreat.get(0) + "\n\n\n");
+			defineGroups defineGroups = new defineGroups(groupNominalFunctionBeginIndex,
+														 groupsVerbalsFunctionBeginIndex,
+														 pronomToGNBeginIndex,
+														 adverbeFunction,
+														 propositionRelativeFunction,
+														 prepositionFunction,
+														 conjonctionLocalisation,
+														 currentSyntaxeTreat.get(0),
+														 currentTextTreat.get(0),
+														 sentenceText.get(sentenceNumber),
+														 conjonction,
+														 GROUPEINFORMATIONS,
+														 GROUPS, SAVEPATH);
+			
+			System.out.println(currentTextTreat.get(0));
+			
+			
+			clearNominal(groupNominalFunctionEndIndex, groupNominalFunctionBeginIndex);
+			clearVerbal(groupsVerbalsMap, groupsVerbalsFunctionEndIndex, groupsVerbalsFunctionBeginIndex, pronomToGNBeginIndex);
+			clearOtherGroup(adverbeFunction, propositionRelativeFunction, prepositionFunction, conjonctionLocalisation);
+			clearGroups(GROUPEINFORMATIONS, GROUPS);
+			clearSentence(currentSyntaxeTreat, currentTextTreat);
+			
+		}
+		ChooseWordFunction chooseFunctionLogo = new ChooseWordFunction();
+		chooseFunctionLogo.writtingLogo(SAVEPATH, "analyseSentence.txt");
+	}
+
+
+
+
+
+
+
+
+
+	private static void makeAnalyseSyntaxique(List<ArrayList<String>> syntaxeText, List<ArrayList<ArrayList<String>>> sentenceWordSplit,
+			List<ArrayList<String>> sentenceText) throws IOException {
+
+		for (int sentence=0; sentence < syntaxeText.size(); sentence++) {
+			
+			int sentenceNumber = sentence;
+
+			System.out.println(sentenceNumber);
+			
+			ChooseWordFunction chooseFunction = new ChooseWordFunction();
+			chooseFunction.ChooseWord(sentenceWordSplit, sentenceText, currentSyntaxeTreat, currentTextTreat, 
+									  sentenceNumber, saveSyntaxe, saveSchema, SAVEPATH);
+			
+			clearSentence(currentSyntaxeTreat, currentTextTreat);
+
+		}
+		
+		ChooseWordFunction chooseFunctionLogo = new ChooseWordFunction();
+		chooseFunctionLogo.writtingLogo(SAVEPATH, "analyseSyntaxique.txt");
+		
+	}
+
+
+
+
+
+
+
+
+
 	private static void clearSentence(ArrayList<ArrayList<ArrayList<String>>> currentSyntaxeTreat,
 									  ArrayList<ArrayList<String>> currentTextTreat) {
 		currentSyntaxeTreat.clear();

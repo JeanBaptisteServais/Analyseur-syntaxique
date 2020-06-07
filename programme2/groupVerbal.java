@@ -80,6 +80,8 @@ public class groupVerbal extends searchingInSentence implements RecuperateIndexA
 
 			if (isZero) { this.groupsVerbalsFunctionBeginIndex.put(0, function); }
 			else        { this.groupsVerbalsFunctionBeginIndex.put(begening, function); }
+			//this.groupsVerbalsFunctionBeginIndex.put(begening, function);
+			 
 		}
 	}
 
@@ -359,7 +361,7 @@ public class groupVerbal extends searchingInSentence implements RecuperateIndexA
 
 		String[] PRNMREFLECHIS = {"me", "contraction=me", "te", "contraction=te", "se", "contraction=se"};
 		String[] PRNMOBJT = {"contraction=le", "en", "contraction=la", "les", "un", "une", "y"}; //orienté objet
-		String[] PRNMPRSN = {"lui", "leur", "moi", "toi", "soi", "eux", "le", "la", "contraction=le",
+		String[] PRNMPRSN = {"lui", "leur", "moi", "toi", "soi", "eux", "le", "la",
 							 "lui-même", "soi-même", "il-même", "elle-même", "nous-même", "vous-même", "ils-même", "elles-même",
 							 "toi-même", }; //orienté personne
 

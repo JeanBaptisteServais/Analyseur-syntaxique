@@ -220,6 +220,7 @@ public class ChooseWordFunction extends searchingInSentence{
 		this.saveSchema  = saveSchema;
 		this.SAVEPATH    = SAVEPATH;
 		this.getSentence = getSentence;
+
 		
 		ArrayList<ArrayList<ArrayList<String>>> first = firstTreatment(sentenceText, sentenceSyntaxe, getSentence);
 
@@ -306,9 +307,9 @@ public class ChooseWordFunction extends searchingInSentence{
 		}catch (Exception e) {}
 	}
 	
-	public void writtingLogo(String SAVEPATH) throws IOException {
+	public void writtingLogo(String SAVEPATH, String cmplt) throws IOException {
 		
-		File file = new File(SAVEPATH + "analyseSyntaxique.txt");
+		File file = new File(SAVEPATH + cmplt);
 
 		if(!file.exists()) { file.createNewFile(); }
 		
@@ -975,8 +976,6 @@ public class ChooseWordFunction extends searchingInSentence{
 		participePastDelete(currentSyntaxe);
 		isAProblemHere(currentSyntaxe, "participePastDelete");
 
-		deleteNomCommunIfCurrentNomCommun(currentSyntaxe);
-		isAProblemHere(currentSyntaxe, "deleteNomCommunIfCurrentNomCommun");
 		
 	}
 
@@ -1020,9 +1019,6 @@ public class ChooseWordFunction extends searchingInSentence{
 		
 		isDeterminant(currentSyntaxe);
 		isAProblemHere(currentSyntaxe, "isDeterminant");
-		
-		deleteNomCommunIfCurrentNomCommun(currentSyntaxe);
-		isAProblemHere(currentSyntaxe, "deleteNomCommunIfCurrentNomCommun");
 		
 		partitifOrPrepoIsTheSameForNow(currentSyntaxe);
 		isAProblemHere(currentSyntaxe, "partitifOrPrepoIsTheSameForNow");
@@ -1111,9 +1107,6 @@ public class ChooseWordFunction extends searchingInSentence{
 		isInterogation(currentSyntaxe);
 		isAProblemHere(currentSyntaxe, "isInterogation");
 
-		deleteNomCommunIfCurrentNomCommun(currentSyntaxe);
-		isAProblemHere(currentSyntaxe, "deleteNomCommunIfCurrentNomCommun");
-		
 		cannotBeVerbBeforeAdjectif(currentSyntaxe);
 		isAProblemHere(currentSyntaxe, "cannotBeVerbBeforeAdjectif");
 			
@@ -1423,16 +1416,21 @@ public class ChooseWordFunction extends searchingInSentence{
 			boolean currentIsNotOne   = current.size() > 1;
 			boolean containsVrb       = listContains(current, "verbe#");
 			boolean containsAdj       = listEqualsElement(current, "Adjectif");
+			boolean firstWord         = syntaxe == 0;
 			
-			//is adjectif and verbe and accent remove adjective.
-			if (currentIsNotOne && containsVrb && containsAdj && lastWordIsEaccent) {
-				dontRemoveFromListContains(current, "verbe#");
+			//is adjectif and verbe and no accent remove verbe.
+			if (currentIsNotOne && containsVrb && containsAdj && !lastWordIsEaccent && !firstWord) {
+				dontRemoveFromListElement(current, "Adjectif");
 				System.out.println("choicePPOrAdj " + syntaxe);
 			}
 			
-			//is adjectif and verbe and no accent remove verbe.
-			else if (currentIsNotOne && containsVrb && containsAdj && !lastWordIsEaccent) {
-				dontRemoveFromListElement(current, "Adjectif");
+			else if (currentIsNotOne && containsVrb && containsAdj && firstWord) {
+				dontRemoveFromListContains(current, "verbe#");
+				System.out.println("choicePPOrAdj " + syntaxe);
+			}
+			//is adjectif and verbe and accent remove adjective.
+			else if (currentIsNotOne && containsVrb && containsAdj && lastWordIsEaccent) {
+				dontRemoveFromListContains(current, "verbe#");
 				System.out.println("choicePPOrAdj " + syntaxe);
 			}
 		}
@@ -2281,7 +2279,7 @@ public class ChooseWordFunction extends searchingInSentence{
 	
 
 	private void isNotPrepositionIfLastIsPronomPersonnel(ArrayList<ArrayList<String>> currentSyntaxe) {
-		
+
 		//Last's pronom personnel. Remove préposition.
 		
 		for (int syntaxe = 1; syntaxe < currentSyntaxe.size(); syntaxe++) {
@@ -2290,7 +2288,7 @@ public class ChooseWordFunction extends searchingInSentence{
 			ArrayList<String> current = currentSyntaxe.get(syntaxe);
 			
 			boolean lastIsOne       = last.size() == 1;
-			boolean lastIsPrnmPerso = listEqualsElement(current, "Pronom personnel");
+			boolean lastIsPrnmPerso = listEqualsElement(last, "Pronom personnel");
 			
 			boolean currentIsTwo    = current.size() == 2;
 			boolean currentIsPrnm   = listEqualsElement(current, "Pronom personnel");
@@ -7111,49 +7109,6 @@ public class ChooseWordFunction extends searchingInSentence{
 			}
 		}
 	}
-	
-
-	
-	private void deleteNomCommunIfCurrentNomCommun(ArrayList<ArrayList<String>> currentSyntaxe) {
-
-		//Delete nom commun from next if current is nom commun.
-		
-		cannotBeVerbBeforeAdjectif(currentSyntaxe);
-		for (int syntaxe=1; syntaxe < currentSyntaxe.size() - 1; syntaxe++) {
-			
-			ArrayList<String> currentList = currentSyntaxe.get(syntaxe);
-			ArrayList<String> nextList    = currentSyntaxe.get(syntaxe + 1);
-			ArrayList<String> lasTList    = currentSyntaxe.get(syntaxe - 1);
-
-			String[] nomCommun            = {"Nom commun", "Forme de nom commun"};
-
-			boolean currentIsNomCommun = listEquals(currentList, nomCommun);
-			boolean currentIsOne       = currentList.size() == 1;
-			boolean currentIsNotOne    = currentList.size() > 1;
-			
-			boolean nextIsNomCommun    = listEquals(nextList, nomCommun);
-			boolean nextIsNotOne       = nextList.size() > 1;
-			boolean nextIsOne          = nextList.size() == 1;
-			boolean nextContainsNc     = listContains(nextList, " Nom commun");
-			
-			boolean lastIsNomCommun    = listEquals(lasTList, nomCommun);
-			boolean lastIsNotOne       = lasTList.size() > 1;
-			
-			if (currentIsNomCommun && currentIsOne && nextIsNomCommun && nextIsNotOne) {
-				removeFromList(nextList, "Nom commun");
-				System.out.println("deleteNomCommunIfCurrentNomCommun(after): " + (syntaxe + 1));
-			}
-
-			else if (currentIsNomCommun && currentIsOne && nextIsNotOne && nextContainsNc) {
-				removeFromListContains(nextList, " Nom commun");
-				System.out.println("deleteNomCommunIfCurrentNomCommun(next): " + (syntaxe + 1));
-			}
-		}
-	}
-
-	
-	
-	
 	
 
 	private void isDeterminant(ArrayList<ArrayList<String>> currentSyntaxe) {

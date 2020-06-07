@@ -29,9 +29,9 @@ https://short-edition.com/fr/categorie/tres-tres-court
  ![aaa](https://user-images.githubusercontent.com/54853371/83954395-1e245d00-a849-11ea-98fc-f0a761cb080a.png)
  ![aa](https://user-images.githubusercontent.com/54853371/83953983-575ace00-a845-11ea-9f1e-965291ea2321.png)
  
-<h1> Rattachement inter sujet</h1>
- 
-détection et rattachement des sujets entre les phrases
+<h1>Essais de Rattachement inter sujet</h1>
+
+détection et rattachement des sujets entre les phrases, di'dentification des compléments coi, cod et de la définition des prépositions ainsi que des adverbes.
 
 L'homme a mis des brindille sur sa tante, l'homme a froit, il se souffle dans les mains.
 

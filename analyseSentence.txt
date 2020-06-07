@@ -1,0 +1,794 @@
+
+
+
+La mer sans arrêt roulait ses galets 
+(Art)La (-> Nm)mer (<- Prep)sans (Nm)arrêt (Vrb)roulait (Art)ses (-> Nm)galets 
+(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)(Complément directe)
+
+
+les cheveux défaits 
+(Art)les (-> Nm)cheveux (<- Adj)défaits 
+Groupe Nominal
+
+
+ils se regardaient 
+(Prn)ils (Prn)se (Vrb)regardaient  
+(Groupe Verbal)
+
+
+ils étaient là sur la plage de leur tendre enfance 
+(Prn)ils (Vrb)étaient (Adv lieu)là (-> Prep)sur (Art)la (Nc)plage (<- Prep)de (Art)leur (Adj)tendre (-> Nc)enfance 
+(Groupe Verbal)(Complément Objet Indirecte)(Complément second)
+
+
+main dans la main 
+(Nm)main (<- Prep)dans (Art)la (Nc)main 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+ils longeaient la mer 
+(Prn)ils (Vrb)longeaient (Art)la (-> Nm)mer 
+(Groupe Verbal)(Complément directe)
+
+
+la mer qui ce matin était grise 
+(Art)la (-> Nm)mer 
+Groupe Nominal
+
+
+la mer qui ce matin était grise 
+(<- Psr)qui (Art)ce (-> Nm)matin (Vrb)était (Vrb)grise 
+(Préposition subordonée relative)(Groupe Sujet)(Groupe groupVerbal)(<- complément de l'antécédent)
+
+
+presque triste . 
+(Adv quantité)presque    
+(Groupe Adverbial)
+
+
+presque triste . 
+(Adj)triste 
+Groupe Nominal
+
+
+Ils contraction=ne étaient pas des amoureux mais 
+(Prn)Ils (Neg)contraction=ne (-> Vrb)étaient (Adv quantité)pas (Art)des (-> Nm)amoureux 
+(Groupe Verbal)(Complément directe)
+
+
+un frère 
+(Art)un (-> Nm)frère 
+Groupe Nominal
+
+
+une sœur . 
+(Art)une (-> Nm)sœur 
+Groupe Nominal
+
+
+Un frère 
+(Art)Un (-> Nm)frère 
+Groupe Nominal
+
+
+une sœur qui venaient de fermer la maison 
+(Art)une (-> Nm)sœur 
+Groupe Nominal
+
+
+une sœur qui venaient de fermer la maison 
+(<- Psr)qui 
+(Préposition subordonée relative)
+
+
+une sœur qui venaient de fermer la maison 
+(Vrb)venaient (<- Prep)de (vrb)fermer (Art)la (-> Nm)maison 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+la maison de leur enfance . 
+(Art)la (-> Nm)maison (<- Prep)de (Art)leur (Nc)enfance 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+Ils contraction=se étaient retrouvés le jeudi soir 
+(Prn)Ils (Prn)contraction=se (Vrb)étaient (Vrb)retrouvés (Art)le (-> Nm)jeudi soir 
+(Groupe Verbal)(Complément directe)
+
+
+contraction=le avaient nettoyée 
+(Prn)contraction=le (Vrb)avaient (Vrb)nettoyée  
+(Pronom avec fonction Complement objet directe) (Groupe Verbal)
+
+
+avaient vidé les armoires 
+(Vrb)avaient (Vrb)vidé (Art)les (-> Nm)armoires 
+(Groupe Verbal)(Complément directe)
+
+
+les placards 
+(Art)les (-> Nm)placards 
+Groupe Nominal
+
+
+pris quelques objets qui leur étaient chers 
+(Vrb)pris (Art)quelques (-> Nm)objets (<- Psr)qui (Prn)leur (Vrb)étaient (Adj)chers 
+(Groupe Verbal)(Groupe Sujet)(Proposition Relative)(Groupe Verbal)(Complément directe)
+
+
+avaient plié les vêtements de leur père disparu un mois auparavant 
+(Vrb)avaient (Vrb)plié (Art)les (-> Nm)vêtements 
+(Groupe Verbal)(Complément directe)
+
+
+avaient plié les vêtements de leur père disparu un mois auparavant 
+(<- Prep)de (Art)leur (Nc <-)père (Adj)disparu 
+(Groupe Prépositionel Nominal)
+
+
+avaient plié les vêtements de leur père disparu un mois auparavant 
+(Adv temps)auparavant    
+(Groupe Adverbial)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(Prn)les (Vrb)avaient (Vrb)portés (-> Prep)à (Art)la (Nc)mairie 
+(Pronom avec fonction de Complément directe)(Groupe Verbal)(Complément Objet Indirecte)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(<- Prep)avec (Art)quelques (Nc)médicaments 
+(Groupe Prépositionel Nominal)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(<- Psr)qui 
+(Préposition subordonée relative)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(Neg)ne (Vrb)serviraient (Adv quantité)plus (-> Prep)pour 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(Prn)Ils (Vrb)avaient (Vrb)mis (-> Prep)dans (Art)une (<- Nc)valisette (<- Art)les (Nc)papiers 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(<- Psr)contraction=que 
+(Préposition subordonée relative)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(Prn)ils (Vrb)trieraient  
+(Groupe Verbal)
+
+
+les avaient portés à la mairie avec quelques médicaments qui ne serviraient plus pour lui… Ils avaient mis dans une valisette les papiers contraction=que ils trieraient plus tard . 
+(Adv temps)tard    
+(Groupe Adverbial)
+
+
+Ils avaient décidé de vendre cette maison 
+(Prn)Ils (Vrb)avaient (Vrb)décidé (<- Prep)de (vrb)vendre (Art)cette (-> Nm)maison 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+car ils habitaient loin et laisser la maison inhabitée contraction=ne était pas bon ; 
+(Cnjnc ->)car    
+(Conjonction)
+
+
+car ils habitaient loin et laisser la maison inhabitée contraction=ne était pas bon ; 
+(Prn)ils (Vrb)habitaient  (Adv lieu)loin  
+(Groupe Verbal) (Groupe Adverbial)
+
+
+car ils habitaient loin et laisser la maison inhabitée contraction=ne était pas bon ; 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+car ils habitaient loin et laisser la maison inhabitée contraction=ne était pas bon ; 
+(Vrb)laisser (Art)la (-> Nm)maison (<- Adj)inhabitée 
+(Groupe Verbal)(Complément directe)
+
+
+car ils habitaient loin et laisser la maison inhabitée contraction=ne était pas bon ; 
+(Neg)contraction=ne (Vrb)était  (Adv affirmation)pas bon  
+(Groupe Verbal) (Groupe Adverbial)
+
+
+la maison au bord de la mer aurait pu prendre contraction=le humidité . 
+(Art)la (-> Nm)maison (Art)au (-> Nm)bord (<- Prep)de (Art)la (Nc)mer (Vrb)aurait (Vrb)pu (Vrb)prendre (Art)contraction=le (-> Nm)humidité 
+(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)(Complément directe)
+
+
+Eux ne pouvaient pas en assurer les charges 
+(Prn)Eux (Neg)ne (-> Vrb)pouvaient (Adv quantité)pas (<- Prep)en (vrb)assurer (Art)les (-> Nm)charges 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+leur situation était compliquée . 
+(Art)leur (-> Nm)situation (Vrb)était (Adj)compliquée 
+(Groupe Sujet)(Groupe Verbal)(Complément directe)
+
+
+Le samedi 
+(Art)Le (-> Nm)samedi 
+Groupe Nominal
+
+
+ils avaient rencontré deux agents immobiliers . 
+(Prn)ils (Vrb)avaient (Vrb)rencontré (Art)deux (-> Nm)agents (<- Adj)immobiliers 
+(Groupe Verbal)(Complément directe)
+
+
+Chacun avait fait sa proposition et les contrats avaient été signés . 
+(Prnm indéfini)Chacun (Vrb)avait (Vrb)fait (Art)sa (-> Nm)proposition 
+(Groupe Sujet)(Groupe Verbal)(Complément directe)
+
+
+Chacun avait fait sa proposition et les contrats avaient été signés . 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+Chacun avait fait sa proposition et les contrats avaient été signés . 
+(Art)les (-> Nm)contrats (Vrb)avaient (Vrb)été (Vrb)signés 
+(Groupe Sujet)(Groupe Verbal)
+
+
+La mise en vente était faite . 
+(Art)La (-> Nm)mise (<- Prep)en (Nm)vente (Vrb)était (Adj)faite 
+(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)(Complément directe)
+
+
+Le samedi soir 
+(Art)Le (-> Nm)samedi soir 
+Groupe Nominal
+
+
+quand ils avaient mangé à la crêperie du coin 
+(Prn)ils (Vrb)avaient (Vrb)mangé (-> Prep)à (Art)la (<- Nc)crêperie (<- Art)du (Nc)coin 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+là où ils allaient avec leurs parents quand ils venaient en vacances 
+(Adv lieu)là où    
+(Groupe Adverbial)
+
+
+là où ils allaient avec leurs parents quand ils venaient en vacances 
+(Prn)ils (Vrb)allaient (-> Prep)avec (Art)leurs (Nc)parents 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+là où ils allaient avec leurs parents quand ils venaient en vacances 
+(Prn)ils (Vrb)venaient (-> Prep)en (Nm)vacances 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+ils avaient commencé à sentir au fond contraction=de eux une douleur 
+(Prn)ils (Vrb)avaient (Vrb)commencé  
+(Groupe Verbal)
+
+
+ils avaient commencé à sentir au fond contraction=de eux une douleur 
+(<- Prep)à (vrb)sentir 
+(Groupe Prépositionel Verbal)
+
+
+ils avaient commencé à sentir au fond contraction=de eux une douleur 
+(Art)au (-> Nm)fond (<- Prep)contraction=de (Prnm)eux (Art)une (-> Nm)douleur 
+(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)(Complément directe)
+
+
+un peu comme si cœur se fissurait . 
+(Adv quantité)un peu comme (Adv quantité)si    
+(Groupe Adverbial)
+
+
+un peu comme si cœur se fissurait . 
+
+
+
+
+un peu comme si cœur se fissurait . 
+(Nm)cœur (Prn)se (Vrb)fissurait 
+(Groupe Sujet)(Groupe Verbal)
+
+
+Ils contraction=ne avaient pas trop parlé et 
+(Prn)Ils (Neg)contraction=ne (-> Vrb)avaient  (Adv quantité)pas trop  
+(Groupe Verbal) (Groupe Adverbial)
+
+
+Ils contraction=ne avaient pas trop parlé et 
+(Vrb)parlé  
+(Groupe Verbal)
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+(Art)le (-> Nm)goût (Art)des (-> Nm)galettes 
+Groupe Nominal
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+(Art)des (-> Nm)crêpes (Neg)contraction=ne (Vrb)était 
+(Groupe Sujet)(Groupe Verbal)
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+(Adv quantité)plus    
+(Groupe Adverbial)
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+
+
+
+
+le goût des galettes et des crêpes contraction=ne était plus le même . 
+(Adv manière)même    
+(Groupe Adverbial)
+
+
+Ils étaient rentrés dans la maison de leurs parents 
+(Prn)Ils (Vrb)étaient (Vrb)rentrés (-> Prep)dans (Art)la (Nc)maison 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils étaient rentrés dans la maison de leurs parents 
+(<- Prep)de (Art)leurs (Nc)parents 
+(Groupe Prépositionel Nominal)
+
+
+et chacun était parti se coucher 
+(Cnjnc ->)et    
+(Conjonction)
+
+
+et chacun était parti se coucher 
+(Prnm indéfini)chacun (Vrb)était (Vrb)parti (Prn)se (Vrb)coucher 
+(Groupe Sujet)(Groupe Verbal)(Groupe Verbal)
+
+
+mais une fois dans leur lit 
+(Cnjnc ->)mais    
+(Conjonction)
+
+
+mais une fois dans leur lit 
+(Art)une (-> Nm)fois (<- Prep)dans (Art)leur (Nc)lit 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+le sommeil malgré la fatigue du rangement ne venait pas . 
+(Art)le (-> Nm)sommeil (<- Prep)malgré (Art)la (<- Nc)fatigue (<- Art)du (Nc)rangement (Neg)ne (Vrb)venait 
+(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)
+
+
+le sommeil malgré la fatigue du rangement ne venait pas . 
+(Adv quantité)pas    
+(Groupe Adverbial)
+
+
+Avaient ils pris la bonne décision ? 
+(Np)Avaient (Prn)ils (Vrb)pris (Art ->)la (Adj ->)bonne (Nc)décision 
+(Groupe Sujet)(Groupe Verbal)(Complément directe)
+
+
+Le lendemain 
+(Art)Le (-> Nm)lendemain 
+Groupe Nominal
+
+
+après avoir chargé leur voiture 
+(-> Prep)après (vrb)avoir (Art)leur (-> Nm)voiture 
+(Groupe Prépositionel Verbal)(Groupe Complement Directe)
+
+
+ils avaient décidé contraction=de aller se promener une dernière fois sur la petite plage contraction=de à côté . 
+(Prn)ils (Vrb)avaient (Vrb)décidé  
+(Groupe Verbal)
+
+
+ils avaient décidé contraction=de aller se promener une dernière fois sur la petite plage contraction=de à côté . 
+(<- Prep)contraction=de (vrb)aller 
+(Groupe Prépositionel Verbal)
+
+
+ils avaient décidé contraction=de aller se promener une dernière fois sur la petite plage contraction=de à côté . 
+(Art ->)une (Adj ->)dernière (Nc)fois (<- Prep)sur (Art)la (Adj)petite (-> Nc)plage 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+ils avaient décidé contraction=de aller se promener une dernière fois sur la petite plage contraction=de à côté . 
+(<- Prep)contraction=de à (Nm)côté 
+(Groupe Prépositionel Nominal)
+
+
+Cette plage 
+(Art)Cette (-> Nm)plage 
+Groupe Nominal
+
+
+ils contraction=le avaient toujours connue . 
+(Prn)ils (Prn)contraction=le (Vrb)avaient  (Adv temps)toujours  
+(Pronom avec fonction Complement objet directe) (Groupe Verbal) (Groupe Adverbial)
+
+
+ils contraction=le avaient toujours connue . 
+(Vrb)connue  
+(Groupe Verbal)
+
+
+En marchant vers les rochers 
+(-> Prep)En (Vrb)marchant (-> Prep)vers (Art)les (Nc)rochers 
+(Complément Objet Indirecte)(Groupe Verbal)(Complément second)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(Prn)ils (Vrb)avaient (Art)contraction=le (-> Nm)impression 
+(Groupe Verbal)(Complément directe)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(<- Psr)que (Art)leurs (-> Nm)parents (Vrb)allaient (Vrb)surgir 
+(Préposition subordonée relative)(Groupe Sujet)(Groupe groupVerbal)(<- complément de l'antécédent)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+
+
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(Art)des (-> Nm)yeux (<- Prep)pleins de (Nm)bonté 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+ils avaient contraction=le impression que leurs parents allaient surgir avec un grand sourire et des yeux pleins de bonté et leur crier ?Allez 
+(Prn)leur (Vrb)crier (Np)?Allez 
+(Groupe Verbal)(Complément directe)
+
+
+on va pêcher des crabes ! 
+(Prn)on (Vrb)va (Vrb)pêcher (Art)des (-> Nm)crabes 
+(Groupe Verbal)(Complément directe)
+
+
+on a apporté les épuisettes ? » 
+(Prn)a (Vrb)apporté  (Prnm)les  
+(Pronom avec fonction Complement objet directe) (Groupe Verbal)
+
+
+non 
+(Adv négation)non    
+(Groupe Adverbial)
+
+
+ils contraction=ne avaient pas surgi . 
+(Prn)ils (Neg)contraction=ne (-> Vrb)avaient  (Adv quantité)pas  
+(Groupe Verbal) (Groupe Adverbial)
+
+
+ils contraction=ne avaient pas surgi . 
+(Vrb)surgi  
+(Groupe Verbal)
+
+
+de la plage 
+(-> Prep)de (Art)la (Nc)plage 
+(Groupe Prépositionel Nominal)
+
+
+on pouvait voir la maison avec les volets fermés . 
+(Prn)on (Vrb)pouvait (Vrb)voir (Art)la (-> Nm)maison 
+(Groupe Verbal)(Complément directe)
+
+
+on pouvait voir la maison avec les volets fermés . 
+(<- Prep)avec (Art)les (Nc <-)volets (Adj)fermés 
+(Groupe Prépositionel Nominal)
+
+
+Le deuil était là . 
+(Art)Le (-> Nm)deuil (Vrb)était 
+(Groupe Sujet)(Groupe Verbal)
+
+
+Le deuil était là . 
+(Adv lieu)là    
+(Groupe Adverbial)
+
+
+tout était terminé . 
+(Prnm indéfini)tout (Vrb)était (Vrb)terminé 
+(Groupe Sujet)(Groupe Verbal)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(Prn)Ils (Prn)contraction=se (Vrb)étaient (Vrb)pris (Art)la (-> Nm)main 
+(Groupe Verbal)(Complément directe)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(Adv quantité)comme    
+(Groupe Adverbial)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(-> Prep)pour 
+(Groupe Prépositionel Nominal)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(-> Prep)pour 
+(Groupe Prépositionel Nominal)
+
+
+Ils contraction=se étaient pris la main comme pour se rassurer et pour se dire que 
+(Adv quantité)que    
+(Groupe Adverbial)
+
+
+ils seraient toujours là 
+(Prn)ils (Vrb)seraient  (Adv temps)toujours là  
+(Groupe Verbal) (Groupe Adverbial)
+
+
+contraction=le un pour contraction=le autre . 
+(Prnm indéfini)contraction=le un (-> Prep)pour (Adj)contraction=le autre 
+(Groupe Nominal)(Groupe Prépositionel Nominal)
+
+
+Ils avaient pensé à cette chanson de Jean Ferrat que leurs parents aimaient chanter aux fêtes de famille . 
+(Prn)Ils (Vrb)avaient (Vrb)pensé (-> Prep)à (Art)cette (Nc)chanson 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils avaient pensé à cette chanson de Jean Ferrat que leurs parents aimaient chanter aux fêtes de famille . 
+(<- Prep)de (Np)Jean 
+(Groupe Prépositionel Nominal)
+
+
+Ils avaient pensé à cette chanson de Jean Ferrat que leurs parents aimaient chanter aux fêtes de famille . 
+(Psr)que (Art)leurs (-> Nm)parents (Vrb)aimaient (Vrb)chanter 
+(Préposition subordonée relative)(Groupe Sujet)(Groupe groupVerbal)(<- complément de l'antécédent)
+
+
+Ils avaient pensé à cette chanson de Jean Ferrat que leurs parents aimaient chanter aux fêtes de famille . 
+(Vrb)aimaient (Vrb)chanter (Art)aux (-> Nm)fêtes (<- Prep)de (Nm)famille 
+(Groupe Verbal)(Complément directe)(Complément Objet Second)
+
+
+leurs parents étaient au fond contraction=de eux et un petit sourire avait jailli sur leurs lèvres . 
+(Art)leurs (-> Nm)parents (Vrb)étaient (Art)au (-> Nm)fond (<- Prep)contraction=de (Prnm)eux 
+(Groupe Sujet)(Groupe Verbal)(Préposition du Groupe Sujet Nominal)(Groupe Verbal)
+
+
+leurs parents étaient au fond contraction=de eux et un petit sourire avait jailli sur leurs lèvres . 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+leurs parents étaient au fond contraction=de eux et un petit sourire avait jailli sur leurs lèvres . 
+(Art)un (-> Nm)petit (Vrb)sourire (Vrb)avait (Vrb)jailli 
+(Groupe Sujet)(Groupe Verbal)
+
+
+leurs parents étaient au fond contraction=de eux et un petit sourire avait jailli sur leurs lèvres . 
+(Vrb)sourire (Vrb)avait (Vrb)jailli (-> Prep)sur (Art)leurs (Nc)lèvres 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils remontèrent vers la maison 
+(Prn)Ils (Vrb)remontèrent (-> Prep)vers (Art)la (Nc)maison 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+leurs pieds contraction=se enfonçaient dans le sable 
+(Art)leurs (-> Nm)pieds (Prn)contraction=se (Vrb)enfonçaient 
+(Groupe Sujet)(Groupe Verbal)
+
+
+leurs pieds contraction=se enfonçaient dans le sable 
+(Prn)contraction=se (Vrb)enfonçaient (-> Prep)dans (Art)le (Nc)sable 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+blanc 
+(Nm)blanc 
+Groupe Nominal
+
+
+Marie vida la petite bouteille contraction=de eau contraction=que elle avait dans son sac et la remplit de ce sable . 
+(Vrb)vida (Art)la (-> Nm)petite bouteille (Art)la (-> Nm)petite bouteille (<- Prep)contraction=de (Nm)eau 
+(Groupe Verbal)(Groupe Verbal)(Complément directe)(Complément Objet Second)
+
+
+Marie vida la petite bouteille contraction=de eau contraction=que elle avait dans son sac et la remplit de ce sable . 
+(<- Psr)contraction=que 
+(Préposition subordonée relative)
+
+
+Marie vida la petite bouteille contraction=de eau contraction=que elle avait dans son sac et la remplit de ce sable . 
+(Prn)elle (Vrb)avait (-> Prep)dans (Art)son (Nc)sac 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Marie vida la petite bouteille contraction=de eau contraction=que elle avait dans son sac et la remplit de ce sable . 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+Marie vida la petite bouteille contraction=de eau contraction=que elle avait dans son sac et la remplit de ce sable . 
+(Prn)la (Vrb)remplit (-> Prep)de (Art)ce (Nc)sable 
+(Pronom avec fonction de Complément directe)(Groupe Verbal)(Complément Objet Indirecte)
+
+
+ne pas en perdre une miette 
+(Adv négation)ne pas    
+(Groupe Adverbial)
+
+
+ne pas en perdre une miette 
+(<- Prep)en (vrb)perdre (Art)une (-> Nm)miette 
+(Groupe Prépositionel Verbal)(Groupe Complement Directe)
+
+
+ne pas en perdre un grain . 
+(Adv négation)ne pas    
+(Groupe Adverbial)
+
+
+ne pas en perdre un grain . 
+(<- Prep)en (vrb)perdre (Art)un (-> Nm)grain 
+(Groupe Prépositionel Verbal)(Groupe Complement Directe)
+
+
+tout emporter . 
+(Prnm indéfini)tout (Vrb)emporter 
+(Groupe Sujet)(Groupe Verbal)
+
+
+Lui avait les larmes aux yeux en la voyant faire cela . 
+(Prn)Lui (Vrb)avait (Art)les (-> Nm)larmes (Art)aux (-> Nm)yeux (<- Prep)en (Prn)la (Vrb)voyant (Vrb)faire 
+(Pronom avec fonction de Complément directe)(Groupe Sujet)(Préposition du Groupe Sujet Nominal)(Groupe Verbal) (Groupe Verbal)
+
+
+Ils fermèrent à clé la grille de la maison 
+(Prn)Ils (Vrb)fermèrent (-> Prep)à (Nc)clé (Art)la (Nc)grille 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils fermèrent à clé la grille de la maison 
+(<- Prep)de (Art)la (Nc)maison 
+(Groupe Prépositionel Nominal)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(Prn)contraction=se (Vrb)embrassèrent (-> Prep)sans 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(Prn)en (Prn)se (Vrb)souhaitant 
+(Complément Objet Indirecte)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(Adv affirmation)bon    
+(Groupe Adverbial)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(Vrb)voyage  
+(Groupe Verbal)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(<- Cnjnc ->)et    
+(Conjonction)
+
+
+contraction=se embrassèrent sans se regarder en se souhaitant bon voyage et prirent le volant . 
+(Art)le (-> Nm)volant (Art)le (-> Nm)volant 
+(Groupe Verbal)(Complément directe)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(Prn)Ils (Prn)contraction=se (Vrb)étaient (Vrb)fixé (-> Prep)de 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(Prn)se (Vrb)revoir (-> Prep)dans (Art)trois (Nc)semaines 
+(Groupe Verbal)(Complément Objet Indirecte)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(<- Prep)chez (Np)Marie 
+(Groupe Prépositionel Nominal)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(-> Prep)dans (Art)la (Nc <-)région (Adj)parisienne 
+(Groupe Prépositionel Nominal)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(<- Prep)pour (vrb)parler 
+(Groupe Prépositionel Verbal)
+
+
+Ils contraction=se étaient fixé de se revoir dans trois semaines chez Marie dans la région parisienne pour parler de la succession 
+(-> Prep)de (Art)la (Nc)succession 
+(Groupe Prépositionel Nominal)
+
+
+trier les papiers 
+(Vrb)trier (Art)les (-> Nm)papiers 
+(Groupe Verbal)(Complément directe)
+
+
+les photos 
+(Art)les (-> Nm)photos 
+Groupe Nominal
+
+
+les souvenirs 
+(Art)les (-> Nm)souvenirs 
+Groupe Nominal
+
+
+une nouvelle fois . 
+(Art ->)une (Adj ->)nouvelle (Nc)fois 
+Groupe Nominal
+
+
+contraction=ce était fini . 
+(Prn)contraction=ce (Vrb)était (Vrb)fini  
+(Groupe Verbal)
+
+
+Adieu maison 
+(Nm)maison 
+Groupe Nominal
+
+
+adieu plage des lauriers . 
+(Nm)plage (Art)des (-> Nm)lauriers 
+Groupe Nominal
+
+
+sur le siège 
+(-> Prep)sur (Art)le (Nc)siège 
+(Groupe Prépositionel Nominal)
+
+
+											Jb & co Assureur Auto/Moto
